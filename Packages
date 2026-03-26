@@ -68,6 +68,22 @@ Description: 神秘功能。
 Author: binglan
 Name: 控制中心美化
 
+Package: com.binglan.kzmh
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Installed-Size: 392
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.binglan.kzmh_1.0.8_iphoneos-arm64.deb
+Size: 25684
+MD5sum: dec4e935a8f3582a06b5bb2b3d271e15
+SHA1: 5da944bcea17ad140b7e9b3838281b913bf21fa3
+SHA256: 6ddc9acace51819fe3c0688bd6282e55878f181492ce011bfb58d23617e835ac
+Section: Tweaks
+Description: 神秘功能。
+Author: binglan
+Name: 控制中心美化
+
 Package: com.binglanqjsy.deb
 Version: 2.1.0
 Architecture: iphoneos-arm64
@@ -82,6 +98,22 @@ SHA256: 3c72294a250a48a4ed9edae94c822219c84ebf66f346ceab34d5e0fde7351f5d
 Section: Tweaks
 Description: 添加全局水印相关功能，支持截屏水印，录屏水印，套壳截图。
 Author: binglan
+Name: 全局水印
+
+Package: com.binglanqjsy.deb
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: debs/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb
+Size: 109384
+MD5sum: 486e04ca0c72ce1b6b37ec11c88f8fbe
+SHA1: de6ff6d33fb31403a1ddc31ff6572434cbfe0002
+SHA256: e938b17ad5314299266f13ec9b41591e41c0c6ddbb213067663af4d7b8d56962
+Section: Tweaks
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Author: 冰蓝
 Name: 全局水印
 
 Package: com.charlieleung.trollopenjb
@@ -133,6 +165,22 @@ Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.thefool.ccaudioplay
+Version: 0.0.1-94+debug
+Architecture: iphoneos-arm64
+Maintainer: thefool
+Installed-Size: 29540
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/播放器arm64.deb
+Size: 25090780
+MD5sum: 7e22abf9f62e77bf79371bf5f82c70ef
+SHA1: 8b63dd05af342c1cab579c3e279b17d07a1098eb
+SHA256: a61f01e9709a5875239b0c3f0902d685ee819896f8536e9ec414db106541a81e
+Section: Tweaks
+Description: 播放器美化 不支IOS15
+Author: thefool
+Name: CCAudioPlay
 
 Package: netskao.alipayhooks
 Version: 1.1-2
