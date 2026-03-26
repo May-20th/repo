@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: Axs
 Installed-Size: 592
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/ios16灵动岛_5.2.0-177-arm64.deb
+Filename: debs/灵动岛ios16_5.2.0-177-arm64.deb
 Size: 67104
 MD5sum: e8adc5e877101c175493289bf858e899
 SHA1: 4cdba911b7703d55a248ab23e88a694e264dd1b3
@@ -156,22 +156,6 @@ Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
 
-Package: com.thefool.ccaudioplay
-Version: 0.0.1-94+debug
-Architecture: iphoneos-arm64
-Maintainer: thefool
-Installed-Size: 29540
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/CCAudioPlay播放器美化_0.0.1-94+debug-arm64.deb
-Size: 25090780
-MD5sum: 7e22abf9f62e77bf79371bf5f82c70ef
-SHA1: 8b63dd05af342c1cab579c3e279b17d07a1098eb
-SHA256: a61f01e9709a5875239b0c3f0902d685ee819896f8536e9ec414db106541a81e
-Section: Tweaks
-Description: 播放器美化 不支IOS15
-Author: thefool
-Name: CCAudioPlay
-
 Package: com.tiaotiao.wechatemoticontoselfie
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -187,4 +171,22 @@ Section: Tweaks
 Description: WeChat Emoticon To SelfieEmoticon
 Author: TiaoTiao
 Name: WeChatEmoticonToSelfie
+
+Package: flex3
+Version: 1:3~Beta90
+Architecture: iphoneos-arm64
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 9.0)
+Recommends: com.rpetrich.rocketbootstrap
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Filename: debs/Flex_3_Beta90-arm64.deb
+Size: 6329640
+MD5sum: dc44a3afff8a78b393efcd883cdaec94
+SHA1: 00953fc59c00d5270cede869ad0d7b4ad4f1d029
+SHA256: 10202bc4026a4c3d54631f44855c40adf609a8f3c3c537e434ce346170decf14
+Section: Tweaks
+Description: 开发您自己的调整并在Flex社区云上共享。Dopamine2.0可生效系统补丁，内置Legacy arm64e Support补丁，加入来了老弟的汉化，感谢他的付出。Xina2.0不要安装，不要安装！！！！
+Author: John Coates
+Name: Flex 3 Beta90
 
