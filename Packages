@@ -90,7 +90,7 @@ Architecture: iphoneos-arm64
 Maintainer: Charlie Leung
 Installed-Size: 13344
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/trollopen越狱版_1.2.8_rootless.deb
+Filename: debs/trollopen分屏_1.2.8_rootless.deb
 Size: 1981616
 MD5sum: 2f9c7b325ba038a064ae14fa4e6b2a30
 SHA1: f639739acc773381913964425e1ffc908c48303a
