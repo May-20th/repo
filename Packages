@@ -26,7 +26,7 @@ Architecture: iphoneos-arm64
 Maintainer: binglan
 Installed-Size: 428
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/动态岛.deb
+Filename: debs/com.binglan.dynamicisland_2.0.3_rootless.deb
 Size: 33296
 MD5sum: 9ede3573baac5c1a3957b1b2826dc453
 SHA1: 500da565aa26456e315f9b9d657d94852302a903
@@ -90,7 +90,7 @@ Architecture: iphoneos-arm64
 Maintainer: binglan
 Installed-Size: 504
 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/全局水印.deb
+Filename: debs/com.binglan.globalwatermark_3.0.0_rootless.deb
 Size: 38152
 MD5sum: 6c96a5730626271a5ab289b8c779dee5
 SHA1: 506f8cc61d1f63baa3264d09542819e955286abb
