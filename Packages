@@ -265,6 +265,24 @@ Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
 Name: MrShi(Roothide)
 Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
 
+Package: com.niceios.mrshi-rootless
+Version: 1.0.0.2-235
+Architecture: iphoneos-arm64
+Maintainer: MrShi
+Installed-Size: 2352
+Depends: mobilesubstrate
+Filename: debs/全局系统颜色自定义MrShi_1.0.0.2-235-arm64.deb
+Size: 547636
+MD5sum: 2c3a4ecc34a9a7ca1d5ad7d2e9df1967
+SHA1: cb140335246cc17af724165a0fc478e286422f36
+SHA256: e004c28f173e8da9baf64f4de12a47dad2b7a2f0eef6fa8c1015635a85f92c52
+Section: Tweaks
+Description: 全局系统颜色自定义
+Author: MrShi
+Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
+Name: MrShi(Rootless)
+Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
+
 Package: com.susu.photos
 Version: 1.0.0
 Architecture: iphoneos-arm64
