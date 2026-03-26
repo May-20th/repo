@@ -1,112 +1,10 @@
-Package: com.axs.screenshellpro
-Version: 5.2.0-61
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 540
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.axs.screenshellpro_5.2.0-61_rootless.deb
-Size: 51728
-MD5sum: 6ae4d8266a96dcd5264efc6d33c813a6
-SHA1: 629fc1fee0fc7288ad0d2beec4b3ba4c88e5f7ea
-SHA256: feceb46e0afeb5672dcebcedaa44fe2dcc0373b93f8a5ef02b8f6e13089580c4
-Section: Tweaks
-Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T
- * 1. 录屏套壳渲染极快。
- * 2. 渲染过程中手机不发烫。
- * 3. 插件不需要任何依赖。
- * 4. 本插件是目前市面上最好的录屏套壳渲染工具。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/screenshellpro.png
-Name: ScreenShell Pro
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
-
-Package: com.binglan.dongtaidao
-Version: 2.0.3
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 428
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/com.binglan.dynamicisland_2.0.3_rootless.deb
-Size: 33296
-MD5sum: 9ede3573baac5c1a3957b1b2826dc453
-SHA1: 500da565aa26456e315f9b9d657d94852302a903
-SHA256: 6f50675877be717378a7f5e07c3993ada75f2af2f4c637fcbf8f4767578d9be0
-Section: Tweaks
-Description: 灵动岛增加视频背景。
-Author: binglan
-Name: 动态岛
-
-Package: com.binglan.kzmh
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 392
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/com.binglan.kzmh_1.0.8_iphoneos-arm64.deb
-Size: 25684
-MD5sum: dec4e935a8f3582a06b5bb2b3d271e15
-SHA1: 5da944bcea17ad140b7e9b3838281b913bf21fa3
-SHA256: 6ddc9acace51819fe3c0688bd6282e55878f181492ce011bfb58d23617e835ac
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglanqjsy.deb
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 504
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/com.binglan.globalwatermark_3.0.0_rootless.deb
-Size: 38152
-MD5sum: 6c96a5730626271a5ab289b8c779dee5
-SHA1: 506f8cc61d1f63baa3264d09542819e955286abb
-SHA256: 3c72294a250a48a4ed9edae94c822219c84ebf66f346ceab34d5e0fde7351f5d
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截屏水印，录屏水印，套壳截图。
-Author: binglan
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 908
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb
-Size: 109384
-MD5sum: 486e04ca0c72ce1b6b37ec11c88f8fbe
-SHA1: de6ff6d33fb31403a1ddc31ff6572434cbfe0002
-SHA256: e938b17ad5314299266f13ec9b41591e41c0c6ddbb213067663af4d7b8d56962
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.charlieleung.trollopenjb
-Version: 1.2.8
-Architecture: iphoneos-arm64
-Maintainer: Charlie Leung
-Installed-Size: 13344
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/trollopen分屏_1.2.8_rootless.deb
-Size: 1981616
-MD5sum: 2f9c7b325ba038a064ae14fa4e6b2a30
-SHA1: f639739acc773381913964425e1ffc908c48303a
-SHA256: 7667c9a85ab4c5ffb30311f8a12871a5ef12336ecc02b816021c4fb240169733
-Section: Tweaks
-Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
-Author: Charlie Leung
-Name: TrollOpen
-
 Package: com.susu.photos
 Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏
 Installed-Size: 168
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.susu.photos_1.0.0_iphoneos-arm64.deb
+Filename: debs/相册精简_1.0.0-arm64.deb
 Size: 3572
 MD5sum: 15876d7e90c6c0442e3cb0da12b13a8c
 SHA1: 48340c8563e703b16df105e0299e800d0544d5a6
@@ -122,7 +20,7 @@ Architecture: iphoneos-arm64
 Maintainer: 苏苏
 Installed-Size: 2088
 Depends: mobilesubstrate
-Filename: debs/com.susu.reachplayer_4.0.3_iphoneos-arm64.deb
+Filename: debs/reachplayer音乐专辑_4.0.3-arm64.deb
 Size: 1096182
 MD5sum: 97c9cbfc9c1a4aaf2d0555572cfb22c1
 SHA1: cc6a17db8830d5230c270f3fbff60515dbdfc42f
@@ -133,20 +31,4 @@ Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
-
-Package: com.thefool.ccaudioplay
-Version: 0.0.1-94+debug
-Architecture: iphoneos-arm64
-Maintainer: thefool
-Installed-Size: 29540
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/CCAudioPlay-0.0.1-94+debug-arm64.deb
-Size: 25090780
-MD5sum: 7e22abf9f62e77bf79371bf5f82c70ef
-SHA1: 8b63dd05af342c1cab579c3e279b17d07a1098eb
-SHA256: a61f01e9709a5875239b0c3f0902d685ee819896f8536e9ec414db106541a81e
-Section: Tweaks
-Description: 播放器美化 不支IOS15
-Author: thefool
-Name: CCAudioPlay
 
