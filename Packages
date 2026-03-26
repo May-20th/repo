@@ -165,6 +165,22 @@ Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Name: ScreenShell Pro
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
 
+Package: com.baiy.keyboardhook
+Version: 2.0-6+debug
+Architecture: iphoneos-arm64
+Maintainer: baiy(QQ：961666883)
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/键盘自定义keyboardhook_2.0-6-arm64.deb
+Size: 47728
+MD5sum: af368a36f5385e3558251e473da9be77
+SHA1: 15b6fb1c3cf91392878bc8f51bc3c77e4dfdb7d6
+SHA256: 6c8d43a4db9b1c6213a4cfe6d1407f0dec5c8c52f4a83d683879f667a6f0b296
+Section: Tweaks
+Description: 关于系统输入法和微信输入法的一些自定义，让键盘更个性化！
+Author: baiy
+Name: KeyboardHook
+
 Package: com.be-huge.floating-view
 Version: 1.5.9-licensed
 Architecture: iphoneos-arm64
