@@ -17,6 +17,114 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 地震预警解锁-Rootless
 Sponsor: 搬运工
 
+Package: com.apple.purejd
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Apple
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing京东净化_1.0.0-arm64.deb
+Size: 14182
+MD5sum: b4b5445c98b5722552a02b483514a109
+SHA1: 110aa97d7fcab4bc5bf09c606781ad918fa95a6a
+SHA256: 40350819ee4f010eacca539bae9b48f6b05b994fff22ece8a3d68fd66d89b490
+Section: Tweaks
+Description: 京东净化插件：删除首页秒送专区和推荐、删除底部Tabbar逛一逛和直播、删除搜索页面的推荐和热门搜索、删除订单详情页面的推荐等、删除商品详情页的商品推荐和配件中心等、删除购物车推荐、删除我的页面杂项、删除启动广告。感谢@Pual的支援。
+Author: Apple
+Depiction: https://tweak.abox.plus/depictions/index.html?packageId=com.apple.purejd
+Icon: https://tweak.abox.plus/api/packageinfo/com.apple.purejd/icon.png
+Name: 京东净化
+Sileodepiction: https://tweak.abox.plus/depictions/native/com.apple.purejd.json
+
+Package: com.apple.purepdd
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Apple
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing拼多多净化_1.0.0-arm64.deb
+Size: 11582
+MD5sum: 2e3f3ed0b00a8f2e3a501bdf653d3bfb
+SHA1: ce4ca2cc244804eecf0de5ea8ab28b499f59e859
+SHA256: 1d8775d87ce9fda5a053ff6457ab99076ed650c308a646a91e87884dfac1c839
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: Apple
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purepdd
+Icon: https://repo.abox.plus/api/packageinfo/com.apple.purepdd/icon.png
+Name: 拼多多净化
+Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purepdd.json
+
+Package: com.apple.puretaobao.new
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Apple
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing淘宝净化_1.1.0-arm64.deb
+Size: 12298
+MD5sum: 2ce95da8093ee371c6a60791e588d7ad
+SHA1: 490fa948a452b770caa5cd122f48c60c39f9c1f9
+SHA256: 6350ecfed129344877ca7f28a9765a8511001e4bc937e1bc0f5fa3a789295c75
+Section: Tweaks
+Description: 淘宝净化插件!
+Author: Apple
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.puretaobao.new
+Icon: https://repo.abox.plus/api/packageinfo/com.apple.puretaobao.new/icon.png
+Name: 淘宝净化
+Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.puretaobao.new.json
+
+Package: com.apple.purexhs
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Apple
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing小红书净化_1.0.3-arm64.deb
+Size: 14648
+MD5sum: ffd1fe8f232a54ab09eba915bd6833e9
+SHA1: eb252d2446336dedf3ba6c0be2c50057501858f8
+SHA256: 23ea6b67637a97c6b3bebc30bd5824e74bd13e447e2bb50b1f5eb88805e9559f
+Section: Tweaks
+Description: 小红书去广告
+Author: Apple
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purexhs
+Icon: https://repo.abox.plus/api/packageinfo/com.apple.purexhs/icon.png
+Name: 小红书净化
+Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purexhs.json
+
+Package: com.apple.wechat.noads
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: Apple
+Installed-Size: 272
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing微信净化_1.2.0-arm64.deb
+Size: 33346
+MD5sum: 837d923461d198d2318ed501a607ba06
+SHA1: 87fb2c1f4f953c9cf87fb7208e0cc2c625b76115
+SHA256: 86510d9b5641a720159512f0ea364dbe7fc9b0c2ab2da0bb72d6adeb6aa89a43
+Section: Tweaks
+Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  插件仅供本人测试使用，下载后请于24小时内删除!
+Author: Apple
+Name: 微信广告净化助手
+
+Package: com.apple.wechat.noads
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: Apple
+Installed-Size: 252
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing微信净化_1.2.1-arm64.deb
+Size: 30140
+MD5sum: cfaa08fefc13ce1f2da910c6f97f7f73
+SHA1: d12c0a4c07b062725db30c3c607ab984fce57ac8
+SHA256: 7855d21b97a31aec867b638579ac1dd57e862999df62808d637fb9fb4f6e96e6
+Section: Tweaks
+Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  插件仅供本人测试使用，下载后请于24小时内删除!
+Author: Apple
+Name: 微信广告净化助手
+
 Package: com.axs.ios16dao
 Version: 5.2.0-177
 Architecture: iphoneos-arm64
@@ -174,6 +282,82 @@ Author: 苏苏
 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.swing.eleme
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing饿了么净化_1.0.5-arm64.deb
+Size: 13326
+MD5sum: d78ff8b883a8cff6e01dd16fe6abad6c
+SHA1: f074f4fddf4607f57e6e1696298af26f1ca624bc
+SHA256: dc96042b0e9c78d2135a7ae3af535296187862ac9bec8d4d30af50472bac5647
+Section: Tweaks
+Description: 饿了么去广告，精简全能超市和购物车推荐。
+Author: SWING
+Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.eleme
+Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.eleme/icon.png
+Name: 饿了么去广告
+Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.eleme.json
+
+Package: com.swing.mihome
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing米家净化_1.0.0-arm64.deb
+Size: 8018
+MD5sum: 33b021197c64bfeb194febd2ed6731b6
+SHA1: f441f1e69fb140abee901de5cfedad60dcdefeec
+SHA256: c18d65838cb48600fab67fac230bb60fe3d5c53b5183b6bdab240196d2006c6b
+Section: Tweaks
+Description: 米家去广告插件!
+Author: SWING
+Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.mihome
+Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.mihome/icon.png
+Name: 米家NoAds
+Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.mihome.json
+
+Package: com.swing.qqmail
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing_QQ邮箱净化_1.0.1-arm64.deb
+Size: 5166
+MD5sum: d24edcaeb47dff6b93ab13bccedb1c43
+SHA1: d84dc4a22525dbf2193945c04f52aee14fa315ef
+SHA256: 4456503898395fb8dff9cc89ea588925a1daac967e9012341d4a1cc452c927b8
+Section: Tweaks
+Description: QQ邮箱去广告插件。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.qqmail
+Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.qqmail/icon.png
+Name: QQ邮箱去广告
+Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.qqmail.json
+
+Package: com.swing.qqmusic
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing_QQ音乐净化_1.0.1-arm64.deb
+Size: 18176
+MD5sum: 5ea3dc14b608c971290b1fa3f18e3047
+SHA1: a691467a27ae56026abb242116dd96678376fb4c
+SHA256: f03c3fc928cc3be3a43f59c64324bd25adc248801b3150064fb5164699159657
+Section: Tweaks
+Description: QQ音乐精简广告!
+Author: SWING
+Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.qqmusic
+Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.qqmusic/icon.png
+Name: QQ音乐净化
+Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.qqmusic.json
 
 Package: com.thefool.ccaudioplay
 Version: 0.0.1-94+debug
