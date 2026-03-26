@@ -16,6 +16,28 @@ Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 Name: ios16灵动岛
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.axs.screenshellpro
+Version: 5.2.0-61
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 540
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/全局水印ScreenShell Pro_5.2.0-61-arm64.deb
+Size: 51728
+MD5sum: 6ae4d8266a96dcd5264efc6d33c813a6
+SHA1: 629fc1fee0fc7288ad0d2beec4b3ba4c88e5f7ea
+SHA256: feceb46e0afeb5672dcebcedaa44fe2dcc0373b93f8a5ef02b8f6e13089580c4
+Section: Tweaks
+Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T
+ * 1. 录屏套壳渲染极快。
+ * 2. 渲染过程中手机不发烫。
+ * 3. 插件不需要任何依赖。
+ * 4. 本插件是目前市面上最好的录屏套壳渲染工具。
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+Name: ScreenShell Pro
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
+
 Package: com.binglan.kzmh
 Version: 1.0.8
 Architecture: iphoneos-arm64
@@ -47,6 +69,22 @@ Section: Tweaks
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
 Author: 冰蓝
 Name: 全局水印
+
+Package: com.charlieleung.trollopenjb
+Version: 1.2.8
+Architecture: iphoneos-arm64
+Maintainer: Charlie Leung
+Installed-Size: 13344
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/分屏TrollOpen_1.2.8-arm64.deb
+Size: 1981616
+MD5sum: 2f9c7b325ba038a064ae14fa4e6b2a30
+SHA1: f639739acc773381913964425e1ffc908c48303a
+SHA256: 7667c9a85ab4c5ffb30311f8a12871a5ef12336ecc02b816021c4fb240169733
+Section: Tweaks
+Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
+Author: Charlie Leung
+Name: TrollOpen
 
 Package: com.susu.photos
 Version: 1.0.0
