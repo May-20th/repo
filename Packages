@@ -4,7 +4,7 @@ Architecture: iphoneos-arm64
 Maintainer: May-20th <may20th@example.com>
 Section: Tweaks
 Priority: optional
-Size: [这里填你的deb文件大小，单位字节]
+Size: [51728字节]
 Filename: debs/ScreenShell Pro_5.2.0-61_无根.deb
 MD5sum: [这里填你的deb的MD5值]
 SHA1: [这里填你的deb的SHA1值]
