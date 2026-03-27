@@ -264,7 +264,7 @@ Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 204
 Depends: mobilesubstrate
-Filename: debs/swing知乎净化_1.0.0-arm64.deb
+Filename: debs/Apple知乎净化_1.0.0-arm64.deb
 Size: 18404
 MD5sum: 315e683c995025120503c09ea1bc0db9
 SHA1: 8c435688fb723fae5b6c989f100b246283ab3ed6
