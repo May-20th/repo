@@ -722,6 +722,22 @@ Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.eleme/icon.png
 Name: 饿了么去广告
 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.eleme.json
 
+Package: com.swing.fleamarket
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/swing咸鱼净化_1.0.0-2-arm64.deb
+Size: 15750
+MD5sum: 513ef16b2bf349a07fd525ff8d772fd0
+SHA1: a9b27272a8fd8aab876d8e248ec131eb19d30006
+SHA256: 107cc6b27124cfd6656ead390a17602cd6340fee096b779be37e1e74bbffee11
+Section: Tweaks
+Description: 取消闲鱼的启动广告和净化其他广告。
+Author: SWING
+Name: 闲鱼净化
+
 Package: com.swing.github
 Version: 1.0.1
 Architecture: iphoneos-arm64
