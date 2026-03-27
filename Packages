@@ -5,7 +5,7 @@ Maintainer: 搬运工
 Installed-Size: 168
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/byg.iosios.net.baidudisk.rootless_0.0.2-1_iphoneos-arm64e.deb
+Filename: debs/百度网盘svip.rootless_0.0.2-1-arm64e.deb
 Size: 7036
 MD5sum: 7328fc6f4545a36cf9583161aa81d9b7
 SHA1: 7c77e119d449fe317e719433cc7edb5539715d7f
