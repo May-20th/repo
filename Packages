@@ -687,6 +687,22 @@ Description: 灵动岛发光效果！
 Author: liuf <1602389262>
 Name: lddfg
 
+Package: com.nahtedetihw.n95
+Version: 4.4
+Architecture: iphoneos-arm64
+Maintainer: Ethan Whited
+Installed-Size: 15096
+Depends: mobilesubstrate
+Filename: debs/ethan.N95_4.4-arm64.deb
+Size: 13914682
+MD5sum: c88a3032b0ca8ca54ad6afaec043f91b
+SHA1: 69b675c9c77e61e651ffc471dfa32d595e6aa7f6
+SHA256: 76acaa4e61381d7bc1282a456e9ee73aa8ea1ae8804f0bd2bb2aa90c5c39976b
+Section: Tweaks
+Description: Mask album artwork images in Apple Music!
+Author: Ethan Whited
+Name: N95
+
 Package: com.niceios.mrshi-roothide
 Version: 1.0.0.2-54
 Architecture: iphoneos-arm64e
@@ -1116,6 +1132,23 @@ Section: Tweaks
 Description: WeChat Emoticon To SelfieEmoticon
 Author: TiaoTiao
 Name: WeChatEmoticonToSelfie
+
+Package: com.wkk.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Installed-Size: 2952
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: debs/mtac.lynx2系统增强_2.5.4-arm64.deb
+Size: 677340
+MD5sum: 9c3330c4a1a9ca5c5ff7918ecdb42fef
+SHA1: 51e7487acbaec496a2a56d7e3813f9f1b5ff0357
+SHA256: 1d649d8eaa28de0c06960fbe5dada05cfbab387d5e2de8a72c838b227c101352
+Section: Tweaks
+Description: 一个系统增强的插件，已汉化。
+Author: MTAC
+Icon: https://s1.imagehub.cc/images/2025/01/23/16cac85a9470fec0d2ed4cb0af1eac4f.png
+Name: Lynx 2
 
 Package: com.wkk.mjhook
 Version: 1.0-1
