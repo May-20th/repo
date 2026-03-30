@@ -773,6 +773,22 @@ Description: 自定义应用图标
 Author: 苏苏
 Name: SuTheme
 
+Package: com.susu.sutheme
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/susu.自定义应用图标_1.0.2-arm64.deb
+Size: 13886
+MD5sum: c771981c092bf9eaf05f77261e665af3
+SHA1: cf71a8616f747c4260314d9f9ce486cbee109555
+SHA256: 6a0bf355fd4549175b72a4ff9fe0d177ad5321e0c799095fd998457d2b0d2d88
+Section: Tweaks
+Description: 自定义应用图标
+Author: 苏苏
+Name: SuTheme
+
 Package: com.swing.ddmcnoads
 Version: 1.0.0
 Architecture: iphoneos-arm64
