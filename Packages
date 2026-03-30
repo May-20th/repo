@@ -775,7 +775,7 @@ Architecture: iphoneos-arm64
 Maintainer: liuf <1602389262>
 Installed-Size: 364
 Depends: mobilesubstrate
-Filename: debs/liuf.主副卡-arm64.deb
+Filename: debs/liuf.主副卡_1.0.0-arm64.deb
 Size: 15520
 MD5sum: e478e99303e56ca5d68625af930f488e
 SHA1: 4c9b41af25166e83be80dbee0a793088e6733f94
