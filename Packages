@@ -430,7 +430,7 @@ Architecture: iphoneos-arm64
 Maintainer: baiy（qq：961666883））
 Installed-Size: 240
 Depends: mobilesubstrate
-Filename: debs/baiyi.SwitchTheme牙齿_1.1-arm64.deb
+Filename: debs/baiyi.SwitchTheme牙齿_1.0.0-arm64.deb
 Size: 27752
 MD5sum: c43f16be4b9d53b43bfee76d257cd548
 SHA1: ea6e4b5f6b22724aa416324333a4555f944c2176
