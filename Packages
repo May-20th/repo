@@ -892,6 +892,26 @@ Description: 删除主屏幕上小部件的背景。
 Author: Lessica <82flex@gmail.com>
 Name: 透明小组件
 
+Package: com.spark.snowboard
+Version: 1.5.50
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/spark.滑雪板集成板_1.5.50-arm64.deb
+Size: 1255596
+MD5sum: 069b3abe4e9317ea301568357dd59ea1
+SHA1: 34ac02aebc8f633fdba518304b4b7c69dd535ed9
+SHA256: 9ac5bb5d7c2fc0e98e749f257394859ab365f01fdad62fd0f956dccf7b012bf9
+Section: SnowBoard
+Description: Snowboard本体，所有扩展都将依赖此插件，单独使用可以更换桌面图标（抖动后双击）等其他功能，此源仅作备份与注释。
+Author: Spark & Dennis D. Bednarz
+Icon: https://s1.imagehub.cc/images/2025/02/16/6184f5a172c0da2db10df7ddce6977bc.png
+Name: SnowBoard
+
 Package: com.susu.ios16
 Version: 2.2
 Architecture: iphoneos-arm64
