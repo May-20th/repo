@@ -834,6 +834,22 @@ Description: 灵动岛发光效果！
 Author: liuf <1602389262>
 Name: lddfg
 
+Package: com.liuf.musicfg
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: liuf <1602389262>
+Installed-Size: 356
+Depends: mobilesubstrate
+Filename: debs/liuf.音乐播放器发光_1.0.0-arm64.deb
+Size: 14730
+MD5sum: a0167ab268f1dfe7c4878a777e69b657
+SHA1: 0345214d8cc171c147dea9f1a908729e1bff83fc
+SHA256: 0c94374cb6ec18247ceda3ad02eeac4bec06c958623cee3f276be7f1a2cdc7dd
+Section: Tweaks
+Description: 夜辰私人定制 i!
+Author: liuf <1602389262>
+Name: 音乐播放器发光效果
+
 Package: com.liuf.zfk
 Version: 1.0.0
 Architecture: iphoneos-arm64
