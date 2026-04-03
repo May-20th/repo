@@ -926,6 +926,22 @@ Description: 删除主屏幕上小部件的背景。
 Author: Lessica <82flex@gmail.com>
 Name: 透明小组件
 
+Package: com.spark.laetus
+Version: 3.5.1-rootless
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 1828
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: debs/spark.laetus汉化版_3.5.1-arm64.deb
+Size: 835000
+MD5sum: fdb71af55a9c74ad217b4208a3f1d92b
+SHA1: 5a7dd9b9629f59e3ea7d9671134a9888afffbc73
+SHA256: 854111fc00b8a01946a6cb2bc4ea97765f5748c291daa209e5042320d9056314
+Section: Tweaks
+Description: Unparalleled Keyboard Customisation
+Author: Spark
+Name: Laetus
+
 Package: com.spark.snowboard
 Version: 1.5.50
 Architecture: iphoneos-arm64
