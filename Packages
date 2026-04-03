@@ -1029,6 +1029,23 @@ Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
 Name: ReachPlayer音乐专辑
 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
 
+Package: com.susu.sumusicplayercc
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 628
+Depends: com.opa334.ccsupport
+Filename: debs/susu.自定义控制中心音乐播放器_1.0.1-arm64.deb
+Size: 86872
+MD5sum: ef5b0b3831cbb50e67bac26f73918ab2
+SHA1: 9213fbd6cd23acf43ed2ca43010ca6b6b8df50d9
+SHA256: 66d139044e2a5e2d075126c179b4446aecfe7cfa0c7b57544be8bbb70ae07049
+Section: Control Center (Modules)
+Description: 自定义控制中心音乐播放器
+Author: 苏苏
+Icon: https://lt.sntp.uk/i/2026/01/25/6975ccd13b377.png
+Name: SuMusicPlayerCC
+
 Package: com.susu.sutheme
 Version: 1.0.1
 Architecture: iphoneos-arm64
