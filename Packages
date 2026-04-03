@@ -739,7 +739,7 @@ Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/found.appdata降级_1.9.0-arm64.deb
+Filename: debs/fouad.appdata降级_1.9.0-arm64.deb
 Size: 299838
 MD5sum: fd7640699fbfc344b5bbc20fb04df4b6
 SHA1: 0a087669b9e694f79ced17fa18e340a1a1404bfe
@@ -773,7 +773,7 @@ Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/found.appdata降级_1.9.2-arm64.deb
+Filename: debs/fouad.appdata降级_1.9.2-arm64.deb
 Size: 306308
 MD5sum: 8dc04fda4afc23c2df1d3dd5b59e4346
 SHA1: 01c74551d93ee1926fc15eadc979dfbc90b76d49
