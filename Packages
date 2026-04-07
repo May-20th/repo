@@ -17,25 +17,6 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 百度网盘 破解-Rootless
 Sponsor: 搬运工
 
-Package: byg.iosios.net.dzyjvip
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: 搬运工
-Installed-Size: 1408
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/hw.地震预警_0.0.1-arm64e.deb
-Size: 385638
-MD5sum: 9dd7f824e0bfb1dade72477e9e4f1d61
-SHA1: 7bac97f4b02cdbc1188b140a8b86626594790308
-SHA256: 07dbb6c3290bb16110419d1acf4df55aa2f47300eb890734071a620a61703323
-Section: 插件
-Description: 地震预警是App Store里的一款软件，配合本插件介绍会员权限，说不定什么时候能救你小子狗命！
-Author: HW
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 地震预警解锁-Rootless
-Sponsor: 搬运工
-
 Package: byg.iosios.net.zhifubaobs
 Version: 1.5.5
 Architecture: iphoneos-arm64e
