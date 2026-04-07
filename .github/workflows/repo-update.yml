@@ -22,8 +22,8 @@ jobs:
       - name: Generate Packages
         run: |
           dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
-          # 【终极 fix：双重匹配，确保破解绝对优先】
-          sed -E -e '/破解|解锁|SVIP|会员|VIP/s/^Section:.*$/Section: 破解/' -e '/净化|去广告|精简|无广告|NoAds|pure/s/^Section:.*$/Section: 净化/' -e '/rootless|RootHide|RootHide Packages/s/^Section:.*$/Section: 其它/' -e '/破解|解锁|SVIP|会员|VIP/s/^Section:.*$/Section: 破解/' -e 's/^Section:.*$/Section: 其它/' Packages.raw > Packages
+          # 【终极硬编码：先把所有带「破解」的，强制改成「破解」，再处理其他】
+          sed -E -e '/破解/s/^Section:.*$/Section: 破解/' -e '/净化/s/^Section:.*$/Section: 净化/' -e 's/^Section:.*$/Section: 其它/' Packages.raw > Packages
           zstd -f Packages -o Packages.zst
           rm -f Packages.raw
 
@@ -32,5 +32,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add Packages Packages.zst
-          git commit -m "Auto-update fix baidu" || echo "No changes"
+          git commit -m "Auto-update hardcode fix" || echo "No changes"
           git push -f origin master
