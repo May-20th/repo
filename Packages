@@ -944,6 +944,24 @@ Description: 删除主屏幕上小部件的背景。
 Author: Lessica <82flex@gmail.com>
 Name: 透明小组件
 
+Package: com.sini921.reachplayer
+Version: 2.26-3
+Architecture: iphoneos-arm64
+Maintainer: ETHN & SINI & 鲨鱼
+Installed-Size: 3440
+Depends: mobilesubstrate
+Filename: debs/sini.音乐控制器_2.26-3-arm64.deb
+Size: 2547330
+MD5sum: 5d9e67eccdb9d37c70e2cbfd8879e34b
+SHA1: 3a78c3b6e52fe4251bdf8594d4ba170a5562e83d
+SHA256: 3fc2d07a10e397f5d996c25f11419aca0f2dd086b0af4015ac44b1e737a1b520
+Section: 其它
+Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
+Author: ETHN & SINI & 鲨鱼
+Icon: https://sini921.github.io/repo/sileodepiction/icon/reachplayer.png
+Name: ReachPlayer(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/reachplayer/js.json
+
 Package: com.spark.laetus
 Version: 3.5.1-rootless
 Architecture: iphoneos-arm64
