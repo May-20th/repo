@@ -919,6 +919,24 @@ Description: 用于部分自用控制中心模块2x1布局以及素材替换，�
 Author: Simon
 Name: 控制中心模块
 
+Package: com.sini.zfbhook
+Version: 1.5.5
+Architecture: iphoneos-arm64
+Maintainer: ylr
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/ylr.支付宝步数_1.5.5-arm64.deb
+Size: 17528
+MD5sum: e752c3f4abf55f138f6c4795fe203c94
+SHA1: f5e932986ebd9d9b8f776d733218803364cc5e76
+SHA256: 045456569735b0a2403adcaf7f043b0f702648d758bdf1abfa4ed6467616b420
+Section: 插件
+Description: 领一下能量哦、长按底栏1秒
+Author: ylr
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
+Name: 支付宝步数(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
+
 Package: com.sini921.reachplayer
 Version: 2.26-3
 Architecture: iphoneos-arm64
