@@ -944,6 +944,22 @@ Description: 删除主屏幕上小部件的背景。
 Author: Lessica <82flex@gmail.com>
 Name: 透明小组件
 
+Package: com.simon.controlcenterlayout
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: Simon
+Installed-Size: 620
+Depends: mobilesubstrate
+Filename: debs/simon.控制中心模块_2.1-arm64.deb
+Size: 90492
+MD5sum: 4c5f78f0a61036f6d679f64f45184325
+SHA1: 532d36f6ef62cc61da4c34fd9a282f7a49a3038e
+SHA256: 22e4510063bf62db09c41587442c316701d95d35b191e97aa53db6c6dbedbdf7
+Section: 插件
+Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Author: Simon
+Name: 控制中心模块
+
 Package: com.sini921.reachplayer
 Version: 2.26-3
 Architecture: iphoneos-arm64
