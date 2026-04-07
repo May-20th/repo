@@ -22,11 +22,7 @@ jobs:
       - name: Generate Packages
         run: |
           dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
-          # 终极逻辑：先把所有 rootless 的踢去 RootHide，剩下的全部变其它
-          sed -E \
-            -e '/rootless|RootHide|RootHIDE/s/^Section:.*$/Section: RootHide/' \
-            -e 's/^Section:.*$/Section: 其它/' \
-            Packages.raw > Packages
+          sed -E 's/^Section:.*$/Section: 插件/' Packages.raw > Packages
           zstd -f Packages -o Packages.zst
           rm -f Packages.raw
 
@@ -35,5 +31,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add Packages Packages.zst
-          git commit -m "Auto: rootless -> RootHide, rest -> 其它" || echo "No changes"
+          git commit -m "All to 插件" || echo "No changes"
           git push -f origin master
