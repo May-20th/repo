@@ -22,14 +22,7 @@ jobs:
       - name: Generate Packages
         run: |
           dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
-          
-          sed -E \
-            -e '/净化|去广告|精简|无广告|NoAds|pure|noads|去启动广告|去广告/s/^Section:.*$/Section: 净化/' \
-            -e '/破解|解锁|SVIP|会员|VIP|Premium|Pro|svip|vip|解锁会员/s/^Section:.*$/Section: 破解/' \
-            -e '/灵动岛|键盘|分屏|美化|水印|控制中心|主题|字体|SnowBoard|工具|插件|系统增强|RootHide|AppData|Flex/s/^Section:.*$/Section: 其它/' \
-            -e 's/^Section:.*$/Section: 其它/' \
-            Packages.raw > Packages
-          
+          sed -E -e '/净化|去广告|精简|无广告|NoAds|pure/s/^Section:.*$/Section: 净化/' -e '/破解|解锁|SVIP|会员|VIP/s/^Section:.*$/Section: 破解/' -e 's/^Section:.*$/Section: 其它/' Packages.raw > Packages
           zstd -f Packages -o Packages.zst
           rm -f Packages.raw
 
@@ -38,6 +31,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add Packages Packages.zst
-          git commit -m "Auto-update Packages with auto-categories" || echo "No changes to commit"
-          git pull origin master --rebase
+          git commit -m "Auto-update" || echo "No changes"
           git push -f origin master
