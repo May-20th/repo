@@ -851,24 +851,6 @@ Icon: https://axs66.github.io/repo/icon/vitreux.png
 Name: Vitreux 液态玻璃
 Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
 
-Package: com.niceios.mrshi-roothide
-Version: 1.0.0.2-54
-Architecture: iphoneos-arm64e
-Maintainer: MrShi
-Installed-Size: 2368
-Depends: mobilesubstrate
-Filename: debs/MrShi.全局系统颜色自定义_1.0.0.2-54-arm64e.deb
-Size: 554970
-MD5sum: ab3bbc44c595a8ad00ec050847c570c5
-SHA1: 4de4c00605f42db3d1623afc9a9509406b7eba00
-SHA256: 8759fdec529e757824d5177b03cec4ac2686ff48dad60649899b296b9e8eef5a
-Section: RootHide
-Description: 全局系统颜色自定义
-Author: MrShi
-Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
-Name: MrShi(Roothide)
-Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
-
 Package: com.niceios.mrshi-rootless
 Version: 1.0.0.2-235
 Architecture: iphoneos-arm64
@@ -1601,7 +1583,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -1616,7 +1598,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
