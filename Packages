@@ -901,6 +901,22 @@ Description: 控制中心发光
 Author: Simon
 Name: 控制中心发光
 
+Package: com.simon.ccweathermodule
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: simon
+Installed-Size: 356
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/simon.控制中心天气_1.0.4-1-arm64.deb
+Size: 92602
+MD5sum: 5f02e4b95febca197e076807f58364e3
+SHA1: d508a400b1dadf035d527fb7f982d265b93cb306
+SHA256: 77bdda036184bd87b9559ba799a41f6473b10a33dcbac7f6ea38e999a53d448d
+Section: Tweaks
+Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
+Author: simon
+Name: CCWeather Module
+
 Package: com.simon.controlcenterlayout
 Version: 2.1
 Architecture: iphoneos-arm64
