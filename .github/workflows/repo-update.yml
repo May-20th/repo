@@ -20,21 +20,37 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y dpkg-dev zstd
 
-      - name: Update Sections file
-        run: echo "Tweaks" > Sections
-
-      - name: Generate Packages
+      - name: Generate Packages with auto-detection
         run: |
           dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
-          # 只修改 Section 行，不改变其他任何结构和顺序
-          sed 's/^Section:.*/Section: Tweaks/' Packages.raw > Packages
+          # 逐段处理：如果包名（Package字段）或文件名（Filename字段）包含 "roothide"（不区分大小写），则设为 RootHide，否则 Tweaks
+          awk '
+            BEGIN { RS=""; FS="\n"; ORS="\n\n" }
+            {
+              is_roothide = 0;
+              for(i=1;i<=NF;i++) {
+                if ($i ~ /^(Package|Filename):.*[Rr]oothide/) { is_roothide = 1; break; }
+              }
+              for(i=1;i<=NF;i++) {
+                if ($i ~ /^Section:/) {
+                  if (is_roothide) $i = "Section: RootHide";
+                  else $i = "Section: Tweaks";
+                }
+              }
+              print
+            }
+          ' Packages.raw > Packages
           zstd -f Packages -o Packages.zst
-          rm -f Packages.raw
+          rm Packages.raw
+
+      - name: Update Sections file (both categories)
+        run: |
+          printf "Tweaks\nRootHide\n" > Sections
 
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add Packages Packages.zst Sections
-          git commit -m "Fix: correct Packages format (no sort)" || echo "No changes"
+          git commit -m "Auto: set Tweaks/RootHide based on package name" || echo "No changes"
           git push origin master
