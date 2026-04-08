@@ -1,1768 +1,204 @@
-Package: com.Axs.classickeyboardxs
-Version: 1.1-9
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 1044
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/netskao.键盘下调_1.1-9-arm64.deb
-Size: 275932
-MD5sum: 171ae972af027d45256a2d9f28d5d7f3
-SHA1: 897c7fe6800d309b0d713d6d132cc638c70d348e
-SHA256: 7329f44595532b0184703ebc7ab11c79e7225083c76b2d9f91a3940d8a487691
-Section: Tweaks
-Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.自定义X键盘底部的高度，地球底部的高度等。可以解决1.3.7版Svp分屏开启后，地球或者语音按不动的问题。
-Author: Netskao
-Icon: https://axs66.github.io/repo/icon/classickeyboardxs.png
-Name: ClassicKeyboardXS 键盘高度调整
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/classickeyboardxs/js.json
-
-Package: com.Doki.kbstyle
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Doki
-Installed-Size: 372
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
-Filename: debs/doki.微信键盘背景改色_1.1-arm64.deb
-Size: 33076
-MD5sum: 14457f5e27dd4005bb677abfb9a0a4e6
-SHA1: e55bb8f0454a3dafbc2b7a737cf6c0118b8765d3
-SHA256: ca170a3a55ebf62e3dabcbc67bdb3317e9214ae6e9219ddd83a1058e5c2870f8
-Section: Tweaks
-Description: 让你的键盘更加花里胡哨！
-Author: Doki
-Name: 键盘DIY颜色
-
-Package: com.apple.appstorenoads
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.App Store净化_1.0.0-arm64.deb
-Size: 4376
-MD5sum: 6ceee26792188084734338cb6e80a909
-SHA1: 62779e0c0a193a2e616e1e297867fe854776be05
-SHA256: 4998c0d59ca5a553e6a8f21850d86d0907a6eb07f2010ec6aeecc956faa7c0b3
-Section: Tweaks
-Description: AppStoreNoAds!
-Author: Apple
-Depiction: https://tweak.abox.plus/depictions/index.html?packageId=com.apple.appstorenoads
-Icon: https://tweak.abox.plus/api/packageinfo/com.apple.appstorenoads/icon.png
-Name: AppStoreNoAds
-Sileodepiction: https://tweak.abox.plus/depictions/native/com.apple.appstorenoads.json
-
-Package: com.apple.bilibili
-Version: 1.2.3
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 236
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.哔哩哔哩净化_1.2.3-arm64.deb
-Size: 22774
-MD5sum: f70bac7871d503217623ef9cc09bb8a6
-SHA1: 5b8f9ac8a16b1f9ecc0dea47ac6a84e40a4afea6
-SHA256: 6596604f0c3586d2f1e3ebe39a50cc4edc0804e4d2d1a8c53f8ada8f08bfd625
-Section: Tweaks
-Description: 哔哩哔哩净化相关页面与广告。无设置项，安装即可生效。
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.bilibili
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.bilibili/icon.png
-Name: 哔哩哔哩净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.bilibili.json
-
-Package: com.apple.neteasemusic
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 220
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.网易云净化_1.0.0-arm64.deb
-Size: 18316
-MD5sum: f51bffcaf784b7724dedd33c7d3da553
-SHA1: b6b3e912c93d8b4c526b23d6f32340c0db73ec20
-SHA256: ed1fbdb7be323c7c556f3e7fe2307479c843eb1dea7da21bb0512619e7abb25c
-Section: Tweaks
-Description: 净化网易云音乐的广告！
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.neteasemusic
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.neteasemusic/icon.png
-Name: 网易云音乐
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.neteasemusic.json
-
-Package: com.apple.purejd
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.京东净化_1.0.0-arm64.deb
-Size: 14182
-MD5sum: b4b5445c98b5722552a02b483514a109
-SHA1: 110aa97d7fcab4bc5bf09c606781ad918fa95a6a
-SHA256: 40350819ee4f010eacca539bae9b48f6b05b994fff22ece8a3d68fd66d89b490
-Section: Tweaks
-Description: 京东净化插件：删除首页秒送专区和推荐、删除底部Tabbar逛一逛和直播、删除搜索页面的推荐和热门搜索、删除订单详情页面的推荐等、删除商品详情页的商品推荐和配件中心等、删除购物车推荐、删除我的页面杂项、删除启动广告。感谢@Pual的支援。
-Author: Apple
-Depiction: https://tweak.abox.plus/depictions/index.html?packageId=com.apple.purejd
-Icon: https://tweak.abox.plus/api/packageinfo/com.apple.purejd/icon.png
-Name: 京东净化
-Sileodepiction: https://tweak.abox.plus/depictions/native/com.apple.purejd.json
-
-Package: com.apple.purepdd
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 188
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.拼多多净化_1.0.0-arm64.deb
-Size: 11582
-MD5sum: 2e3f3ed0b00a8f2e3a501bdf653d3bfb
-SHA1: ce4ca2cc244804eecf0de5ea8ab28b499f59e859
-SHA256: 1d8775d87ce9fda5a053ff6457ab99076ed650c308a646a91e87884dfac1c839
-Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purepdd
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.purepdd/icon.png
-Name: 拼多多净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purepdd.json
-
-Package: com.apple.puretaobao
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.淘宝净化_1.0.0-arm64.deb
-Size: 16104
-MD5sum: d4d8cc16b1a62e8fa0d28e8f617046f5
-SHA1: e3702886faf25d03352ce2479927332554ac3fc6
-SHA256: c50c6634ca5a34af1720f8f86f0c6147591b10137fd49b10d31190c222ae1d4f
-Section: Tweaks
-Description: 淘宝净化，最高支持v10.39.30!
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.puretaobao
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.puretaobao/icon.png
-Name: 淘宝净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.puretaobao.json
-
-Package: com.apple.puretaobao.new
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.淘宝净化_1.1.0-arm64.deb
-Size: 12298
-MD5sum: 2ce95da8093ee371c6a60791e588d7ad
-SHA1: 490fa948a452b770caa5cd122f48c60c39f9c1f9
-SHA256: 6350ecfed129344877ca7f28a9765a8511001e4bc937e1bc0f5fa3a789295c75
-Section: Tweaks
-Description: 淘宝净化插件!
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.puretaobao.new
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.puretaobao.new/icon.png
-Name: 淘宝净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.puretaobao.new.json
-
-Package: com.apple.puretieba
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/Apple.百度贴吧净化_1.0.8-arm64.deb
-Size: 20242
-MD5sum: 46aaf45f6072fd56f0b162bfe6e5969f
-SHA1: 605d18a330be11d881108d3f53972a65a2419dbd
-SHA256: 444ceec49d4514b594604b3f2afcb6942172d0ec78396ebfa8d88c6f0e7996cf
-Section: Tweaks
-Description: 百度贴吧去广告插件
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.puretieba
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.puretieba/icon.png
-Name: 百度贴吧净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.puretieba.json
-
-Package: com.apple.purexhs
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.小红书净化_1.0.3-arm64.deb
-Size: 14648
-MD5sum: ffd1fe8f232a54ab09eba915bd6833e9
-SHA1: eb252d2446336dedf3ba6c0be2c50057501858f8
-SHA256: 23ea6b67637a97c6b3bebc30bd5824e74bd13e447e2bb50b1f5eb88805e9559f
-Section: Tweaks
-Description: 小红书去广告
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purexhs
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.purexhs/icon.png
-Name: 小红书净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purexhs.json
-
-Package: com.apple.purexmly
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 236
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.喜马拉雅净化_1.0.1-arm64.deb
-Size: 25710
-MD5sum: c1c31503c5a00f0a0d7791dbd78ab0e2
-SHA1: 83d5329c33494f6c592b329c4b56e911bdee2733
-SHA256: 502ab4a174c2b89e5c7d7aa8ff91c86fa1b0405c726aeb8167664b12ebce3a57
-Section: Tweaks
-Description: 净化喜马拉雅，解锁部分VIP资源!
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purexmly
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.purexmly/icon.png
-Name: 喜马拉雅净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purexmly.json
-
-Package: com.apple.qqmusic
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.QQ音乐净化_1.0.0-arm64.deb
-Size: 18516
-MD5sum: 6291886df297ac85a797cff0578c0684
-SHA1: a5683441c3e89708ad3dc9efac4def58a6804d28
-SHA256: 9f8e9fad677d254f2c01932a359b174d76691bc57342c0a42b199684eefb1f45
-Section: Tweaks
-Description: 仅供测试严禁商用，请于下载后24小时内彻底删除！QQ音乐精简广告，解锁至臻音质2.0!
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.qqmusic
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.qqmusic/icon.png
-Name: QQ音乐净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.qqmusic.json
-
-Package: com.apple.wechat.noads
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 272
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.微信净化_1.2.0-arm64.deb
-Size: 33346
-MD5sum: 837d923461d198d2318ed501a607ba06
-SHA1: 87fb2c1f4f953c9cf87fb7208e0cc2c625b76115
-SHA256: 86510d9b5641a720159512f0ea364dbe7fc9b0c2ab2da0bb72d6adeb6aa89a43
-Section: Tweaks
-Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  插件仅供本人测试使用，下载后请于24小时内删除!
-Author: Apple
-Name: 微信广告净化助手
-
-Package: com.apple.wechat.noads
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 252
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/Apple.微信净化_1.2.1-arm64.deb
-Size: 30140
-MD5sum: cfaa08fefc13ce1f2da910c6f97f7f73
-SHA1: d12c0a4c07b062725db30c3c607ab984fce57ac8
-SHA256: 7855d21b97a31aec867b638579ac1dd57e862999df62808d637fb9fb4f6e96e6
-Section: Tweaks
-Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  插件仅供本人测试使用，下载后请于24小时内删除!
-Author: Apple
-Name: 微信广告净化助手
-
-Package: com.apple.weibo
-Version: 1.2.5
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 236
-Depends: mobilesubstrate
-Filename: debs/Apple.微博净化_1.2.5-arm64.deb
-Size: 27212
-MD5sum: f9304871ff18b75cf589dc065397585e
-SHA1: d423941d8d5452f7ccbc2e286f3eddc6233d6a0b
-SHA256: 352524e30c7810d5c3be7026ddb60aa1fac1288fe484b2ad44fd78e724089c42
-Section: Tweaks
-Description: 删除启动页、信息流、视频流、评论列表、发现等页面的广告，支持修改设备型号。
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.weibo
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.weibo/icon.png
-Name: 微博去广告
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.weibo.json
-
-Package: com.apple.zhihu
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Apple
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/Apple.知乎净化_1.0.0-arm64.deb
-Size: 18404
-MD5sum: 315e683c995025120503c09ea1bc0db9
-SHA1: 8c435688fb723fae5b6c989f100b246283ab3ed6
-SHA256: 3802434bcade8d67fd8f20e2df6cf022b3f844bee9f72dfbcbaa3be2d9d61eb5
-Section: Tweaks
-Description: 知乎净化广告插件
-Author: Apple
-Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.zhihu
-Icon: https://repo.abox.plus/api/packageinfo/com.apple.zhihu/icon.png
-Name: 知乎净化
-Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.zhihu.json
-
-Package: com.axs.ios16dao
-Version: 5.2.0-161
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 608
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/axs.灵动岛ios16_5.2.0-161-arm64.deb
-Size: 67044
-MD5sum: fc419fa2e9f9dab18cf651fa200adcd1
-SHA1: cdebcd1c14b05c49d45c49db6b731d0e7faa242c
-SHA256: 88029d37d2e1cd21874a88e96103f2a60357a0178e215f41de9a73e028cc1c07
-Section: Tweaks
-Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
-Name: ios16灵动岛
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
-
-Package: com.axs.ios16dao
-Version: 5.2.0-177
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 592
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/axs.灵动岛ios16_5.2.0-177-arm64.deb
-Size: 67104
-MD5sum: e8adc5e877101c175493289bf858e899
-SHA1: 4cdba911b7703d55a248ab23e88a694e264dd1b3
-SHA256: 442d139c5d66f80479440a98671341048c78cfd6f19c4821221b8310e9540c5f
-Section: Tweaks
-Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
-Name: ios16灵动岛
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
-
-Package: com.axs.screenshellpro
-Version: 5.2.0-61
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 540
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/axs.全局水印_5.2.0-61-arm64.deb
-Size: 51728
-MD5sum: 6ae4d8266a96dcd5264efc6d33c813a6
-SHA1: 629fc1fee0fc7288ad0d2beec4b3ba4c88e5f7ea
-SHA256: feceb46e0afeb5672dcebcedaa44fe2dcc0373b93f8a5ef02b8f6e13089580c4
-Section: Tweaks
-Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T
- * 1. 录屏套壳渲染极快。
- * 2. 渲染过程中手机不发烫。
- * 3. 插件不需要任何依赖。
- * 4. 本插件是目前市面上最好的录屏套壳渲染工具。
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/screenshellpro.png
-Name: ScreenShell Pro
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
-
-Package: com.baiy.keyboardhook
-Version: 2.0-6+debug
-Architecture: iphoneos-arm64
-Maintainer: baiy(QQ：961666883)
-Installed-Size: 524
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/baiyi.键盘自定义_2.0-6-arm64.deb
-Size: 47728
-MD5sum: af368a36f5385e3558251e473da9be77
-SHA1: 15b6fb1c3cf91392878bc8f51bc3c77e4dfdb7d6
-SHA256: 6c8d43a4db9b1c6213a4cfe6d1407f0dec5c8c52f4a83d683879f667a6f0b296
-Section: Tweaks
-Description: 关于系统输入法和微信输入法的一些自定义，让键盘更个性化！
-Author: baiy
-Name: KeyboardHook
-
-Package: com.baiy.switchtheme
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: baiy（qq：961666883））
-Installed-Size: 240
-Depends: mobilesubstrate
-Filename: debs/baiyi.牙齿_1.0.0-arm64.deb
-Size: 27752
-MD5sum: c43f16be4b9d53b43bfee76d257cd548
-SHA1: ea6e4b5f6b22724aa416324333a4555f944c2176
-SHA256: 2c9c91c5031e46f2339f3d4ac82c82f962bd02336c1503e8143d9485824fd15c
-Section: Tweaks
-Description: 灵感源自牙齿线条的极简开关，圆润而洁净，温润而纯粹。滑动之间，如唇齿轻启，带来指尖柔滑的精致体验
-Author: 白衣
-Name: SwitchTheme——牙齿
-
-Package: com.be-huge.floating-view
-Version: 1.5.9-licensed
-Architecture: iphoneos-arm64
-Maintainer: be-huge (Modified)
-Installed-Size: 2700
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/be-huge.分屏_1.5.9-arm64.deb
-Size: 1084808
-MD5sum: 706943df5286405fda6b4342e8c3eea3
-SHA1: ed28e6ecaa9a5316c5d56d953528d02dd0b2f0d8
-SHA256: 8df8b392e6889c03259a996cb73f7576dc7f31c8ca06d5461bbba242300ed3c0
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。此版本包含授权验证机制，需要激活码才能使用。使用 floatingview-license 命令管理授权。
-Author: be-huge
-Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png
-Name: floatingView (授权版)
-Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
-
-Package: com.binglan.kzmh
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.1-arm64.deb
-Size: 18916
-MD5sum: 80e5b7db0ed1b6f4372484a6ea20ba76
-SHA1: df6b542a66f0db409f6f412585f91e144888dfc7
-SHA256: 55bf3dab4a23d7fbc981eff7c81f3c08a2fb35de01d0183dd9a457d5baa29702
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.5-arm64.deb
-Size: 20604
-MD5sum: be3422e6aab99bd7059787b42e222853
-SHA1: c4b566fbb026c5f70a9cf47853f7b57123aecf31
-SHA256: d8e2ed50d27de9a11dafed55aa06c91e4952140dc264ba71183aaeef593bdbbb
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.5-1
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.5-1-arm64.deb
-Size: 21512
-MD5sum: b0df61d845089f15a2c0547d69980d71
-SHA1: d9e6205c5d038ff6734651397415bb7d57ac12e7
-SHA256: 7f4fe51db1277b6412191ca5e61d88fb73617a003846b5b9f78096d5ffa8203b
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 376
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.6-arm64.deb
-Size: 20792
-MD5sum: 4efe657677ff3e633c841e161683271c
-SHA1: b7b537968e3e8e6380719a0dce4ce9c780a9d117
-SHA256: 1fc5a372cba5d7c0673a40faca22af9ec001fd80be7e7cec3dc83bd1f9faeb39
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglan.kzmh
-Version: 1.0.8
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 392
-Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/binglan.控制中心美化_1.0.8-arm64.deb
-Size: 25684
-MD5sum: dec4e935a8f3582a06b5bb2b3d271e15
-SHA1: 5da944bcea17ad140b7e9b3838281b913bf21fa3
-SHA256: 6ddc9acace51819fe3c0688bd6282e55878f181492ce011bfb58d23617e835ac
-Section: Tweaks
-Description: 神秘功能。
-Author: binglan
-Name: 控制中心美化
-
-Package: com.binglanqjsy.deb
-Version: 2.1.0
-Architecture: iphoneos-arm64
-Maintainer: binglan
-Installed-Size: 504
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.1.0-arm64.deb
-Size: 38152
-MD5sum: 6c96a5730626271a5ab289b8c779dee5
-SHA1: 506f8cc61d1f63baa3264d09542819e955286abb
-SHA256: 3c72294a250a48a4ed9edae94c822219c84ebf66f346ceab34d5e0fde7351f5d
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截屏水印，录屏水印，套壳截图。
-Author: binglan
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.4
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 596
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.2.4-arm64.deb
-Size: 60644
-MD5sum: 32f057567c9d9ce9af2b90c21c346a8c
-SHA1: dbdcc49628d3a0fd8773cee50da1417aa5186ec2
-SHA256: 7a61ad571aad30774db9434cb560b6c5501aad5711af30d54b0f16bc99222e77
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.5
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 660
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_2.2.5-arm64.deb
-Size: 66420
-MD5sum: 57a57193052225ca7a08f258e8802557
-SHA1: ef7f6d76a9a4b6a203ac7cf9b3b1d92cd3839694
-SHA256: e25c07078b83ccf0b705636c4478d269f7325287793584dac5f6debfe1f8625c
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 2.2.6
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 780
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_ 2.2.6-arm64.deb
-Size: 88136
-MD5sum: 5d35c20577026d9c14ed9fc55489c1e4
-SHA1: 0c52fd33a9cdc4991bcceb7baaf23c5531e5ee73
-SHA256: 8c78d2f3d8c0b1d498bf853395b6ef7026232c443561deac8abbc4d9fc95b9d5
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.binglanqjsy.deb
-Version: 3.0.0
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 908
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
-Filename: debs/binglan.全局水印_3.0.0-arm64.deb
-Size: 109384
-MD5sum: 486e04ca0c72ce1b6b37ec11c88f8fbe
-SHA1: de6ff6d33fb31403a1ddc31ff6572434cbfe0002
-SHA256: e938b17ad5314299266f13ec9b41591e41c0c6ddbb213067663af4d7b8d56962
-Section: Tweaks
-Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
-Author: 冰蓝
-Name: 全局水印
-
-Package: com.charlieleung.trollopenjb
-Version: 1.2.8
-Architecture: iphoneos-arm64
-Maintainer: Charlie Leung
-Installed-Size: 13344
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/charlie.分屏_1.2.8-arm64.deb
-Size: 1981616
-MD5sum: 2f9c7b325ba038a064ae14fa4e6b2a30
-SHA1: f639739acc773381913964425e1ffc908c48303a
-SHA256: 7667c9a85ab4c5ffb30311f8a12871a5ef12336ecc02b816021c4fb240169733
-Section: Tweaks
-Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。
-Author: Charlie Leung
-Name: TrollOpen
-
-Package: com.dao.appdata
-Version: 9.9.9
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdata, netskao.appdata-rootless
-Filename: debs/fouad.appdata降级_9.9.9-arm64.deb
-Size: 823356
-MD5sum: d76e1bce5683880cf62816cf2cb1ac3e
-SHA1: 9f30ee0e8a06e6bb410094bfdef83ddee74fa3bf
-SHA256: 0f5330934b7e7a152e0aa6c355e310273c86086df556784914589f05713445fc
-Section: Tweaks
-Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。
-Author: Fouad Raheb
-Name: AppData(rootless)
-
-Package: com.dvntm.infuseplus
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 420
-Depends: mobilesubstrate
-Filename: debs/dvntm.infuseplus_1.2.0-arm64.deb
-Size: 125280
-MD5sum: fee899c4a2b4254669f2327b7d349bf3
-SHA1: eb98046e58e4b45e2f3beacec785cf8180c863bf
-SHA256: c8c8af3b38c8dcc2c4f5511dd20ee05e62bfaa9cbc3e9026a6dbe4280198721a
-Section: Tweaks
-Description: Enhancer for Infuse app
-Author: dvntm
-Icon: https://i.imgur.com/C5MLSXo.png
-Name: Infuse Plus
-Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
-
-Package: com.hw.dzyjvip
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 🅷🆆
-Installed-Size: 2192
-Depends: mobilesubstrate
-Filename: debs/hw.地震预警_0.0.1-arm64.deb
-Size: 431472
-MD5sum: 0a9e1e741f8b422ada42d77d48a42776
-SHA1: 41e99f6ffe37b675d3743ae9baf32b66e12a73f7
-SHA256: 3c1864a5bc41e333ae347958c82dff3db46f44686c29c31fa054ee0acbc4f0ab
-Section: Tweaks
-Description: 解锁会员 - TG：@HelloWorld_1024
-Author: 🅷🆆
-Name: 🅷🆆 地震预警
-
-Package: com.ios16dao
-Version: 5.2.0-100
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 516
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/axs.灵动岛ios16_5.2.0-100-arm64.deb
-Size: 55764
-MD5sum: 2223ae925766ac95bac914aad5bad9bd
-SHA1: 583a0efa498d77c13836c366207c043c9157097e
-SHA256: 29ad6b936e75a59678568d63c6f0482aa1e2a931afc5804e5e2308e46880e9c5
-Section: Tweaks
-Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。
-Author: Axs
-Name: ios16灵动岛
-
-Package: com.ios16dao
-Version: 5.2.0-125
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 524
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/axs.灵动岛ios16_5.2.0-125-arm64.deb
-Size: 55708
-MD5sum: 0560396e617a7c7edab8e5a66fbed437
-SHA1: be2133020b7de62fd1df486805f9a025acff4d2a
-SHA256: 3f9efc6b1e62564c9ff75624e04e06d22a4b0e0ae7c8ed2d57c5136fdd64018c
-Section: Tweaks
-Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。
-Author: Axs
-Name: ios16灵动岛
-
-Package: com.iosdump.appdata
-Version: 1.8.9
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.8.9-arm64.deb
-Size: 295646
-MD5sum: b5c98484bd80a112c770f148e9d98b88
-SHA1: e4ec2cd31dc094a151a5cbb642893637132e9be1
-SHA256: d223a6c972bdaa8c5ee96854f395f2770752b75302a2e97aed0c945e28e43d6b
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.0-arm64.deb
-Size: 299838
-MD5sum: fd7640699fbfc344b5bbc20fb04df4b6
-SHA1: 0a087669b9e694f79ced17fa18e340a1a1404bfe
-SHA256: c5392e0d920c3cdeac737d5573b40954f76337f68bcc88ab5b929a560c689281
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.1-arm64.deb
-Size: 300058
-MD5sum: 6ea3b0ec0b26e22c70e8a89f5e4047dc
-SHA1: 0ab1301ae35b6997dd54617e18a9e2ea5c3e2292
-SHA256: c2f798715129b7bc1888a9bd6a4a2c0c3f91dde441d79ffc828e366700c1d527
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.appdata
-Version: 1.9.2
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
-Filename: debs/fouad.appdata降级_1.9.2-arm64.deb
-Size: 306308
-MD5sum: 8dc04fda4afc23c2df1d3dd5b59e4346
-SHA1: 01c74551d93ee1926fc15eadc979dfbc90b76d49
-SHA256: 0b73c7dd1784d3e46659abc64180b8260a6577436fad5dc674c3b5cf001f0288
-Section: Tweaks
-Description: 从主屏幕查看和管理应用数据
-Author: Fouad Raheb
-Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
-Name: AppData
-
-Package: com.iosdump.filzacarplugin
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 10644
-Filename: debs/iosdump.提取与修改Assets.car资源_1.0.0-arm64.deb
-Size: 5421184
-MD5sum: 3d14d1a1c533f49dc6dcc88ad23b1e55
-SHA1: 77206928fc18ae50a21a2357be9703a6c76cb99b
-SHA256: fedf800f3de6eed4d9f683e9cdae4b5eee076a27c46c540a2efb0bfbf459c87d
-Section: Tweaks
-Description: 提取与修改 Assets.car 资源 (Filza 插件)
-Author: iosdump
-Name: FilzaCarPlugin
-
-Package: com.link.aweme
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: Link
-Installed-Size: 472
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/link.抖音净化_1.0.5-arm64.deb
-Size: 73768
-MD5sum: 47318d9de6a5812239164259f7b0a4f3
-SHA1: 5a939c312b9a14f14b2be2ad4b998b562e689463
-SHA256: d77d4ec20d25581ed08e791fe221e3caa9fe15d3c768003939583d465a6ded2a
-Section: Tweaks
-Description: An awesome tweak for Aweme!
-Author: Link
-Depiction: https://tweak.abox.plus/depictions/index.html?packageId=com.link.aweme
-Icon: https://tweak.abox.plus/api/packageinfo/com.link.aweme/icon.png
-Name: 抖音增强
-Sileodepiction: https://tweak.abox.plus/depictions/native/com.link.aweme.json
-
-Package: com.liuf.lddfg
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: liuf <1602389262>
-Installed-Size: 356
-Depends: mobilesubstrate
-Filename: debs/liuf.灵动岛发光_1.0.0-arm64.deb
-Size: 12780
-MD5sum: 40818d11e975f0ac5e22a1bc7f2cb54f
-SHA1: 9c767470c545b3113748aebf2f9dc02b4e3d32fe
-SHA256: e304ed2e453852ca638551e193f88adfd464089905efec97bcaf39f86f889915
-Section: Tweaks
-Description: 灵动岛发光效果！
-Author: liuf <1602389262>
-Name: lddfg
-
-Package: com.liuf.musicfg
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: liuf <1602389262>
-Installed-Size: 356
-Depends: mobilesubstrate
-Filename: debs/liuf.音乐播放器发光_1.0.0-arm64.deb
-Size: 14730
-MD5sum: a0167ab268f1dfe7c4878a777e69b657
-SHA1: 0345214d8cc171c147dea9f1a908729e1bff83fc
-SHA256: 0c94374cb6ec18247ceda3ad02eeac4bec06c958623cee3f276be7f1a2cdc7dd
-Section: Tweaks
-Description: 夜辰私人定制 i!
-Author: liuf <1602389262>
-Name: 音乐播放器发光效果
-
-Package: com.liuf.zfk
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: liuf <1602389262>
-Installed-Size: 364
-Depends: mobilesubstrate
-Filename: debs/liuf.主副卡_1.0.0-arm64.deb
-Size: 15520
-MD5sum: e478e99303e56ca5d68625af930f488e
-SHA1: 4c9b41af25166e83be80dbee0a793088e6733f94
-SHA256: c551698076c3a145da934a0842d472e757cc6de0794123918b83be1df4f08ad4
-Section: Tweaks
-Description: 将控制中心主副卡显示为自己喜欢的图片 可自定义 有设置项可自定义高低上下!
-Author: liuf <1602389262>
-Name: Liuf's 主副卡
-
-Package: com.mtac.vitreux
-Version: 1.4
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 7028
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: debs/mtac.液态玻璃_1.4-arm64.deb
-Size: 121300
-MD5sum: 5a9ed2795d088ca751fcc1001e36bc05
-SHA1: b25d03b6705ed0776ac2097087afa8ab6c603f9a
-SHA256: d73919662745826eefc79262d8004a552a4d74952dd71a51592f257ddebaa91e
-Section: Tweaks
-Description: A recreation of Liquid Glass
-  * 1.主打 iOS 26 系统液态玻璃设计。
-  * 2.让旧系统体验液态玻璃风格。
-  * 3.目前版本，效果主要体现在锁屏、主屏、控制中心、通知、App 资源库、小组件等。
-  * 4.自定义选项丰富。可以自定义模糊设置等。
-  * 5.目前仅仅支持 SpringBoard 范围。
-  * 6.支持 iOS 15.x - 16.x 系统。
-Author: MTAC
-Icon: https://axs66.github.io/repo/icon/vitreux.png
-Name: Vitreux 液态玻璃
-Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
-
-Package: com.niceios.mrshi-roothide
-Version: 1.0.0.2-54
-Architecture: iphoneos-arm64e
-Maintainer: MrShi
-Installed-Size: 2368
-Depends: mobilesubstrate
-Filename: debs/MrShi.全局系统颜色自定义_1.0.0.2-54-arm64e.deb
-Size: 554970
-MD5sum: ab3bbc44c595a8ad00ec050847c570c5
-SHA1: 4de4c00605f42db3d1623afc9a9509406b7eba00
-SHA256: 8759fdec529e757824d5177b03cec4ac2686ff48dad60649899b296b9e8eef5a
-Section: Tweaks
-Description: 全局系统颜色自定义
-Author: MrShi
-Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
-Name: MrShi(Roothide)
-Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
-
-Package: com.niceios.mrshi-rootless
-Version: 1.0.0.2-235
-Architecture: iphoneos-arm64
-Maintainer: MrShi
-Installed-Size: 2352
-Depends: mobilesubstrate
-Filename: debs/MrShi.全局系统颜色自定义_1.0.0.2-235-arm64.deb
-Size: 547636
-MD5sum: 2c3a4ecc34a9a7ca1d5ad7d2e9df1967
-SHA1: cb140335246cc17af724165a0fc478e286422f36
-SHA256: e004c28f173e8da9baf64f4de12a47dad2b7a2f0eef6fa8c1015635a85f92c52
-Section: Tweaks
-Description: 全局系统颜色自定义
-Author: MrShi
-Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
-Name: MrShi(Rootless)
-Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
-
-Package: com.removewidgetbg
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 436
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
-Filename: debs/lessica.透明小组件_2.0-arm64.deb
-Size: 30988
-MD5sum: 267f4ed4f23eabdd24fa2fc26ee727e4
-SHA1: be4fc67f260107157851cf43f1570c3fc1961571
-SHA256: ec5d9e910f40c3f420a95ded924a4f6f0224b8966796bbe72e890b92a5b9388e
-Section: Tweaks
-Description: 删除主屏幕上小部件的背景。
-Author: Lessica <82flex@gmail.com>
-Name: 透明小组件
-
-Package: com.simon.ccglow
-Version: 2.0.3
-Architecture: iphoneos-arm64
-Maintainer: Simon
-Installed-Size: 384
-Depends: mobilesubstrate
-Filename: debs/simon.控制中心发光_2.0.3-arm64.deb
-Size: 24102
-MD5sum: ca0f3464b198d2d0daf7969d988b6633
-SHA1: 0fb875518d06f0117cae89fb7ea28be24265511c
-SHA256: cf903c342bd4978d15cf7c22dc9f58d8fbda162c0f065abe05dd2bb6b67ae4fa
-Section: Tweaks
-Description: 控制中心发光
-Author: Simon
-Name: 控制中心发光
-
-Package: com.simon.ccweathermodule
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: simon
-Installed-Size: 356
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/simon.控制中心天气_1.0.4-arm64.deb
-Size: 92602
-MD5sum: 5f02e4b95febca197e076807f58364e3
-SHA1: d508a400b1dadf035d527fb7f982d265b93cb306
-SHA256: 77bdda036184bd87b9559ba799a41f6473b10a33dcbac7f6ea38e999a53d448d
-Section: Tweaks
-Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
-Author: simon
-Name: CCWeather Module
-
-Package: com.simon.controlcenterlayout
-Version: 2.1
-Architecture: iphoneos-arm64
-Maintainer: Simon
-Installed-Size: 620
-Depends: mobilesubstrate
-Filename: debs/simon.控制中心模块_2.1-arm64.deb
-Size: 90492
-MD5sum: 4c5f78f0a61036f6d679f64f45184325
-SHA1: 532d36f6ef62cc61da4c34fd9a282f7a49a3038e
-SHA256: 22e4510063bf62db09c41587442c316701d95d35b191e97aa53db6c6dbedbdf7
-Section: Tweaks
-Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
-Author: Simon
-Name: 控制中心模块
-
-Package: com.sini.zfbhook
-Version: 1.5.5
-Architecture: iphoneos-arm64
-Maintainer: ylr
-Installed-Size: 204
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/ylr.支付宝步数_1.5.5-arm64.deb
-Size: 17528
-MD5sum: e752c3f4abf55f138f6c4795fe203c94
-SHA1: f5e932986ebd9d9b8f776d733218803364cc5e76
-SHA256: 045456569735b0a2403adcaf7f043b0f702648d758bdf1abfa4ed6467616b420
-Section: Tweaks
-Description: 领一下能量哦、长按底栏1秒
-Author: ylr
-Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
-Name: 支付宝步数(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-5
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-5-arm64.deb
-Size: 144600
-MD5sum: 99358fe9b1185673e0790b84a017483b
-SHA1: e467e612f41fd11c1b4120f91d056c130baf4410
-SHA256: 9e09b1ad585ca16f7d9af6dc78a99e0e8bcc1a2f996437ec10de8fef9d3160b4
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-6
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-6-arm64.deb
-Size: 144508
-MD5sum: c6c813778d264e774eca7a04cf97969e
-SHA1: b04e0c5b14fa04b29985de01918e54f895c659a3
-SHA256: 2cb239144d2ccffc36da96aaa3ee1e8eff863ee9b0ff1f9a631e6d7fe207ad31
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.ccloader
-Version: 0.0.1-7
-Architecture: iphoneos-arm64
-Maintainer: 橙子
-Installed-Size: 360
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.ccloader_0.0.1-7-arm64.deb
-Size: 145168
-MD5sum: d62021e954fc9bc1c93bf493964438af
-SHA1: 19cfdc724f942023d672889f6e8ee6cc98393177
-SHA256: 7e72435b53e5e5d18c958d3c139a5bc510afd0bd85d2c37af493f4a0823c4973
-Section: Tweaks
-Description: 控制中心CAPackage加载器
-Author: 橙子
-Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
-Name: CCLoader(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
-
-Package: com.sini921.photohub
-Version: 0.0.1-5
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 440
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/sini.photohub_0.0.1-5-arm64.deb
-Size: 58612
-MD5sum: 577aa2af4114dc0756ee23f8fba8c06d
-SHA1: a0a9e1c5005e2c347e41b16925df2b9df7e54431
-SHA256: 5fb41b4c78c4956e4c202e50eb3c01fac278fb34206b064bab18e5ffcf4f1a4a
-Section: Tweaks
-Description: 系统相册App简单优化
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/photohub.png
-Name: PhotoHub(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/photohub/js.json
-
-Package: com.sini921.reachplayer
-Version: 2.26-3
-Architecture: iphoneos-arm64
-Maintainer: ETHN & SINI & 鲨鱼
-Installed-Size: 3440
-Depends: mobilesubstrate
-Filename: debs/sini.音乐控制器_2.26-3-arm64.deb
-Size: 2547330
-MD5sum: 5d9e67eccdb9d37c70e2cbfd8879e34b
-SHA1: 3a78c3b6e52fe4251bdf8594d4ba170a5562e83d
-SHA256: 3fc2d07a10e397f5d996c25f11419aca0f2dd086b0af4015ac44b1e737a1b520
-Section: Tweaks
-Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。
-Author: ETHN & SINI & 鲨鱼
-Icon: https://sini921.github.io/repo/sileodepiction/icon/reachplayer.png
-Name: ReachPlayer(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/reachplayer/js.json
-
-Package: com.spark.laetus
-Version: 3.5.1-rootless
-Architecture: iphoneos-arm64
-Maintainer: Spark
-Installed-Size: 1828
-Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
-Filename: debs/spark.laetus汉化版_3.5.1-arm64.deb
-Size: 835000
-MD5sum: fdb71af55a9c74ad217b4208a3f1d92b
-SHA1: 5a7dd9b9629f59e3ea7d9671134a9888afffbc73
-SHA256: 854111fc00b8a01946a6cb2bc4ea97765f5748c291daa209e5042320d9056314
-Section: Tweaks
-Description: Unparalleled Keyboard Customisation
-Author: Spark
-Name: Laetus
-
-Package: com.spark.snowboard
-Version: 1.5.50
-Architecture: iphoneos-arm64
-Maintainer: Spark
-Installed-Size: 3268
-Depends: mobilesubstrate, preferenceloader
-Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: debs/spark.滑雪板集成板_1.5.50-arm64.deb
-Size: 1255596
-MD5sum: 069b3abe4e9317ea301568357dd59ea1
-SHA1: 34ac02aebc8f633fdba518304b4b7c69dd535ed9
-SHA256: 9ac5bb5d7c2fc0e98e749f257394859ab365f01fdad62fd0f956dccf7b012bf9
-Section: Tweaks
-Description: Snowboard本体，所有扩展都将依赖此插件，单独使用可以更换桌面图标（抖动后双击）等其他功能，此源仅作备份与注释。
-Author: Spark & Dennis D. Bednarz
-Icon: https://s1.imagehub.cc/images/2025/02/16/6184f5a172c0da2db10df7ddce6977bc.png
-Name: SnowBoard
-
-Package: com.susu.ccuiplayer
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 436
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/susu.控制中心播放器加背景图_1.0.7-arm64.deb
-Size: 48272
-MD5sum: 60b52cc90bacab3e953c6fa91413048a
-SHA1: e145028c02765fd8f7b48cd3ee3924d1fc3235be
-SHA256: d21ebeccb3760deaec5846adf86183dd93497c8662ec67ec7a0a8cbdb8c599b5
-Section: Tweaks
-Description: 控制中心音频窗口背景插件
-Author: SuSu
-Name: CCUIPlayer
-
-Package: com.susu.ios16
-Version: 2.2
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 712
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/ios16.原生90字体_2.2-arm64.deb
-Size: 83323848
-MD5sum: 355ea785c3a35d1ee18875ebb637b9a1
-SHA1: 1b01d64eacd6adef8fe50981290b4ad342439662
-SHA256: d89dac679976d447f8c2468d421d662841eaf9bedd31fc84fb762e7bb0cab2a9
-Section: Tweaks
-Description: 苏苏提取ios16原生字体，修改为90%大小，使用前请先挂载！
-Author: 苏苏
-Icon: https://www.susubaby.top/images/ziti.png
-Name: ios16原生字体 90%大小
-
-Package: com.susu.photos
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 168
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/susu.相册精简_1.0.0-arm64.deb
-Size: 3572
-MD5sum: 15876d7e90c6c0442e3cb0da12b13a8c
-SHA1: 48340c8563e703b16df105e0299e800d0544d5a6
-SHA256: 07c09914ecae84784017cba4b945caa4cd4be10332f18dfc89009fdb10b8cb9d
-Section: Tweaks
-Description: 删除原生相册无用的窗口
-Author: 苏苏
-Name: SuPhotos
-
-Package: com.susu.reachplayer
-Version: 4.0.3
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 2088
-Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_4.0.3-arm64.deb
-Size: 1096182
-MD5sum: 97c9cbfc9c1a4aaf2d0555572cfb22c1
-SHA1: cc6a17db8830d5230c270f3fbff60515dbdfc42f
-SHA256: c3bc21886833a54663dffbb2f9628618dee3e91a819feb94910c9be3f33575db
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏
-Icon: https://www.susubaby.top/json/ReachPlayer/icon.png
-Name: ReachPlayer音乐专辑
-Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
-
-Package: com.susu.snapper3.picta
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 180
-Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1)
-Filename: debs/susu.picta_1.0.0-arm64.deb
-Size: 10466
-MD5sum: 6d5bf7b4ad07fd86bdda1224a71083b6
-SHA1: 72fde27044141599038c7c3c13cc8025543ead67
-SHA256: b455488c3f62b808538323ef6f96f6a1b1a01a2ce1eaf2b8da326174018e01da
-Section: Tweaks
-Description: Picta适配 Snapper3 的插件
-Author: SuSu
-Name: Picta
-
-Package: com.susu.sumusicplayercc
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 628
-Depends: com.opa334.ccsupport
-Filename: debs/susu.自定义控制中心音乐播放器_1.0.1-arm64.deb
-Size: 86872
-MD5sum: ef5b0b3831cbb50e67bac26f73918ab2
-SHA1: 9213fbd6cd23acf43ed2ca43010ca6b6b8df50d9
-SHA256: 66d139044e2a5e2d075126c179b4446aecfe7cfa0c7b57544be8bbb70ae07049
-Section: Tweaks
-Description: 自定义控制中心音乐播放器
-Author: 苏苏
-Icon: https://lt.sntp.uk/i/2026/01/25/6975ccd13b377.png
-Name: SuMusicPlayerCC
-
-Package: com.susu.sutheme
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/susu.自定义图标_1.0.1-arm64.deb
-Size: 12562
-MD5sum: 6a83cf68741edc46038b7acc8874d644
-SHA1: c191e2b0dc8af7ffe59965fa103b64046f7f42d7
-SHA256: 66761c05963f1a242a2117582d83aceb72ff66761f7179bcb5b140cde9595138
-Section: Tweaks
-Description: 自定义应用图标
-Author: 苏苏
-Name: SuTheme
-
-Package: com.susu.sutheme
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: 苏苏
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/susu.自定义图标_1.0.2-arm64.deb
-Size: 13886
-MD5sum: c771981c092bf9eaf05f77261e665af3
-SHA1: cf71a8616f747c4260314d9f9ce486cbee109555
-SHA256: 6a0bf355fd4549175b72a4ff9fe0d177ad5321e0c799095fd998457d2b0d2d88
-Section: Tweaks
-Description: 自定义应用图标
-Author: 苏苏
-Name: SuTheme
-
-Package: com.swing.ddmcnoads
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.叮咚买菜净化_1.0.0-arm64.deb
-Size: 5052
-MD5sum: affc170066db969d2f4fa1dac97036d6
-SHA1: 9002d3418c137cc9b33f37904d653a35ecffdb0b
-SHA256: cca525421e1a8cc8666620d5d4a00e96dfda381cbfce0881415ed27bc7bcd25a
-Section: Tweaks
-Description: 叮咚买菜v11.19.0跳过启动广告。
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.ddmcnoads
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.ddmcnoads/icon.png
-Name: 叮咚买菜去启动广告
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.ddmcnoads.json
-
-Package: com.swing.dpnoads
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.百度网盘净化_1.2.0-arm64.deb
-Size: 17530
-MD5sum: db73251a8d0fc20aaef11544dd78bd03
-SHA1: 928cb729e5e936ac4df245df50555ad6d748aacb
-SHA256: f28d1a5196109a913dfd8cb83bd0d2cd94fa73f6a455a95c1566a584da70c153
-Section: Tweaks
-Description: 百度网盘去广告，优化文件传输页面使用系统App来打开文件!
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.dpnoads
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.dpnoads/icon.png
-Name: 百度网盘净化
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.dpnoads.json
-
-Package: com.swing.eleme
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.饿了么净化_1.0.5-arm64.deb
-Size: 13326
-MD5sum: d78ff8b883a8cff6e01dd16fe6abad6c
-SHA1: f074f4fddf4607f57e6e1696298af26f1ca624bc
-SHA256: dc96042b0e9c78d2135a7ae3af535296187862ac9bec8d4d30af50472bac5647
-Section: Tweaks
-Description: 饿了么去广告，精简全能超市和购物车推荐。
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.eleme
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.eleme/icon.png
-Name: 饿了么去广告
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.eleme.json
-
-Package: com.swing.fleamarket
-Version: 1.0.0-2+debug
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 180
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.咸鱼净化_1.0.0-2-arm64.deb
-Size: 15750
-MD5sum: 513ef16b2bf349a07fd525ff8d772fd0
-SHA1: a9b27272a8fd8aab876d8e248ec131eb19d30006
-SHA256: 107cc6b27124cfd6656ead390a17602cd6340fee096b779be37e1e74bbffee11
-Section: Tweaks
-Description: 取消闲鱼的启动广告和净化其他广告。
-Author: SWING
-Name: 闲鱼净化
-
-Package: com.swing.github
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.github_1.0.1-arm64.deb
-Size: 5946
-MD5sum: 115faca1325099ff2e7e1368d3184eb7
-SHA1: 039534403821c4cfd432560ef21a898670c4a0d5
-SHA256: 2e70645dbf39bc9afe60a07820a17b0b376dbd58d2665ee612fcd32f677abd76
-Section: Tweaks
-Description: 激活GitHub Pro，除了Copilot功能，其他功能都支持。
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.github
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.github/icon.png
-Name: GitHub
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.github.json
-
-Package: com.swing.mihome
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.米家净化_1.0.0-arm64.deb
-Size: 8018
-MD5sum: 33b021197c64bfeb194febd2ed6731b6
-SHA1: f441f1e69fb140abee901de5cfedad60dcdefeec
-SHA256: c18d65838cb48600fab67fac230bb60fe3d5c53b5183b6bdab240196d2006c6b
-Section: Tweaks
-Description: 米家去广告插件!
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.mihome
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.mihome/icon.png
-Name: 米家NoAds
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.mihome.json
-
-Package: com.swing.neteasemusic
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 200
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.网易云净化_0.0.1-arm64.deb
-Size: 11388
-MD5sum: f8d4325a4872e441e464348fbe447c9b
-SHA1: e0108fb9c06ed347cd0604f4cda05a37b755f9e0
-SHA256: 9d33521cf75b84349047a4c24029c74da042c43b7fc9a4bbc39ad3bbfaca0ec5
-Section: Tweaks
-Description: 净化网易云音乐的广告！
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.neteasemusic
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.neteasemusic/icon.png
-Name: 网易云音乐
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.neteasemusic.json
-
-Package: com.swing.nicegram
-Version: 1.0.0-1
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.Nicegram Pro_1.0.0-1-arm64.deb
-Size: 7672
-MD5sum: 43eb0c8f9759816c9af0d4abb75fed8e
-SHA1: 71139b50a7b896033ab796806b55871a38af1bb3
-SHA256: edd5ca981279fb96df4450ecc5da07181e254e38cc9e5bf439d6afe4b72e301e
-Section: Tweaks
-Description: An awesome tweak for Nicegram! TG：https://t.me/abox1993
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.nicegram
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.nicegram/icon.png
-Name: Nicegram Premium
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.nicegram.json
-
-Package: com.swing.puretieba
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 204
-Depends: mobilesubstrate
-Filename: debs/swing.百度贴吧净化_1.0.7-arm64.deb
-Size: 18102
-MD5sum: 6b4867559dd6d2a21d97a67726d66bcc
-SHA1: 71c994959ee2ef7663eb51cb19f07caed2807d18
-SHA256: 4f58597d401cc33fdc5b104f541c97c9d752959b59cb64a105c7355caccada87
-Section: Tweaks
-Description: 百度贴吧去广告插件，更新适配 v12.61.3
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.puretieba
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.puretieba/icon.png
-Name: 百度贴吧去广告
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.puretieba.json
-
-Package: com.swing.purexhs
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.小红书净化_1.0.2-arm64.deb
-Size: 14040
-MD5sum: 2fe5f46f6d3ebdb91f0a502a6641b5d6
-SHA1: b842cbaf32d1e327e4d6c7d35892f2be5b43d27a
-SHA256: 2abcfe8e1df4c67126894165e04c2a88dd78cb3d1eb74e196fbe11be8a5fbf99
-Section: Tweaks
-Description: 自用插件且仅限越狱，注入无效!!
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.purexhs
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.purexhs/icon.png
-Name: 小红书净化
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.purexhs.json
-
-Package: com.swing.purexmly
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 236
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.喜马拉雅净化_1.0.2-arm64.deb
-Size: 24788
-MD5sum: da25c92ce5c52594cd634a8bee3fbbe8
-SHA1: 60df0de71b8bd0d427278c8364f79a85bd3c5b04
-SHA256: ff736664fb90d85c23858602db3102d9920ed195f7778c65a5a0eb29a8877372
-Section: Tweaks
-Description: 净化喜马拉雅，解锁部分VIP资源!
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.purexmly
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.purexmly/icon.png
-Name: 喜马拉雅
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.purexmly.json
-
-Package: com.swing.qqmail
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.QQ邮箱净化_1.0.1-arm64.deb
-Size: 5166
-MD5sum: d24edcaeb47dff6b93ab13bccedb1c43
-SHA1: d84dc4a22525dbf2193945c04f52aee14fa315ef
-SHA256: 4456503898395fb8dff9cc89ea588925a1daac967e9012341d4a1cc452c927b8
-Section: Tweaks
-Description: QQ邮箱去广告插件。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.qqmail
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.qqmail/icon.png
-Name: QQ邮箱去广告
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.qqmail.json
-
-Package: com.swing.qqmusic
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.QQ音乐净化_1.0.1-arm64.deb
-Size: 18176
-MD5sum: 5ea3dc14b608c971290b1fa3f18e3047
-SHA1: a691467a27ae56026abb242116dd96678376fb4c
-SHA256: f03c3fc928cc3be3a43f59c64324bd25adc248801b3150064fb5164699159657
-Section: Tweaks
-Description: QQ音乐精简广告!
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.qqmusic
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.qqmusic/icon.png
-Name: QQ音乐净化
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.qqmusic.json
-
-Package: com.swing.weibolite
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 204
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/swing.微博轻享净化_1.0.3-arm64.deb
-Size: 13634
-MD5sum: fee81a2c3e25ede766cd0e2b1543dc1e
-SHA1: fe07df0bd1769a1749ccbe11f07e2e896172d9ad
-SHA256: 3cc6c13da4329559aa73e089d0dea8fd76f752e08fa214cd70a18ba2272831bf
-Section: Tweaks
-Description: 微博轻享版去广告去广告插件
-Author: SWING
-Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.weibolite
-Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.weibolite/icon.png
-Name: 微博轻享版去广告
-Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.weibolite.json
-
-Package: com.thefool.ccaudioplay
-Version: 0.0.1-94+debug
-Architecture: iphoneos-arm64
-Maintainer: thefool
-Installed-Size: 29540
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/thefool.播放器美化_0.0.1-94-arm64.deb
-Size: 25090780
-MD5sum: 7e22abf9f62e77bf79371bf5f82c70ef
-SHA1: 8b63dd05af342c1cab579c3e279b17d07a1098eb
-SHA256: a61f01e9709a5875239b0c3f0902d685ee819896f8536e9ec414db106541a81e
-Section: Tweaks
-Description: 播放器美化 不支IOS15
-Author: thefool
-Name: CCAudioPlay
-
-Package: com.tiaotiao.wcchannelsdownloader
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 2404
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/tiaotiao.微信视频号下载_1.6-arm64.deb
-Size: 893946
-MD5sum: a39453f8200e963281c75deafdd05184
-SHA1: 8b4678bb362fe073f5a0ba0f575200e630b393bc
-SHA256: 4804e12d29efd9e2bd541e73b932ec8fad61b11ec980b2ad88d19ed2ba6448ea
-Section: Tweaks
-Description: 微信视频号下载
-Author: TiaoTiao
-Name: WCChannelsDownloader
-
-Package: com.tiaotiao.wechatemoticontoselfie
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 104
-Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: debs/tiaotiao.微信表情转自拍_1.2-arm64.deb
-Size: 24134
-MD5sum: de4cfff9561acbec2095f16699dad1f4
-SHA1: 8a4a36c123043f02bb764387fcc98931f39e4824
-SHA256: dbb89936ce1640788c20cbd1181f12eafe07dcf0bb5da1e800782362adc434f6
-Section: Tweaks
-Description: WeChat Emoticon To SelfieEmoticon
-Author: TiaoTiao
-Name: WeChatEmoticonToSelfie
-
-Package: com.tiaotiao.wxkeyboarduihook
-Version: 1.8
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 416
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/tiaotiao.微信键盘虚线_1.8-arm64.deb
-Size: 81104
-MD5sum: 781da50e35122e97118343867055f887
-SHA1: 6708b3eb109855c250d7fe30117b41c71bc3f9e4
-SHA256: 836c9675da9f6828186f6370eedfd50f9d3c337a19d9e5d36e734999e2af93d9
-Section: Tweaks
-Description: WXKeyboardUIHook
-Author: TiaoTiao
-Name: WXKeyboardUIHook
-
-Package: com.tiaotiao.wxkeyboarduihook
-Version: 1.9
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 416
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/tiaotiao.微信键盘虚线_1.9-arm64.deb
-Size: 83910
-MD5sum: a85171436dd66d8cbb21af8f2be60ebc
-SHA1: 600e1d592ec99e0c6bd152e18682750f68237e35
-SHA256: 5008731c213f496c0ec16663302b98aa183aca7c92e5e96512cdab9ca9beeb66
-Section: Tweaks
-Description: WXKeyboardUIHook
-Author: TiaoTiao
-Name: WXKeyboardUIHook
-
-Package: com.tiaotiao.wxkeyboarduihook
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 480
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/tiaotiao.微信键盘虚线_2.0-arm64.deb
-Size: 106694
-MD5sum: 8a86becf2f19175d598fa85e6bbc99f5
-SHA1: 25e581e355b85ebadac33a6ac1ad48c6e423e150
-SHA256: 4aa518a56122fa3fad420256335ad714a44e97c4835c9ae69d022536e6e1959e
-Section: Tweaks
-Description: WXKeyboardUIHook
-Author: TiaoTiao
-Name: WXKeyboardUIHook
-
-Package: com.wkk.lynxtwo
-Version: 2.5.4
-Architecture: iphoneos-arm64
-Maintainer: MTAC
-Installed-Size: 2952
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: debs/mtac.系统增强_2.5.4-arm64.deb
-Size: 677340
-MD5sum: 9c3330c4a1a9ca5c5ff7918ecdb42fef
-SHA1: 51e7487acbaec496a2a56d7e3813f9f1b5ff0357
-SHA256: 1d649d8eaa28de0c06960fbe5dada05cfbab387d5e2de8a72c838b227c101352
-Section: Tweaks
-Description: 一个系统增强的插件，已汉化。
-Author: MTAC
-Icon: https://s1.imagehub.cc/images/2025/01/23/16cac85a9470fec0d2ed4cb0af1eac4f.png
-Name: Lynx 2
-
-Package: com.wkk.mjhook
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/wkk.米家优化_1.0-1-arm64.deb
-Size: 10920
-MD5sum: e003d3e491ab8066816a92619636315b
-SHA1: d632162faba7f8fc05370ccd51dfdc1d4cc5cdef
-SHA256: d9d90e9320620a43e520247beb6274261ad3b7e427339eefa956b435ae671053
-Section: Tweaks
-Description: cool
-Author: wkk
-Name: 米家优化
-
-Package: com.wkk.mtwmhook
-Version: 1.1-7
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 400
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/wkk美团外卖NoAds_1.1-7-arm64.deb
-Size: 3544
-MD5sum: 8a11617063926e7d8deb7ee050e0236f
-SHA1: cc1d3bfbd82d20986156edc180b6b03d5fd9de68
-SHA256: 4b4d37704f4f23653e20db171df1ebff623ceed206ebba00cdcb78a3a02c0173
-Section: Tweaks
-Description: 去开屏广告，版本：8.68.0
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/07/05/4c47ba0f7be3c4ed094d026ae1dac6ba.jpeg
-Name: 美团外卖NoAds
-
-Package: com.wkk.mtyhhook
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/wkk.美团优化_1.0-1-arm64.deb
-Size: 13768
-MD5sum: a8a1e01e73e0b7d492afe15971a38a19
-SHA1: 111547d5cd624dc1b736c0db5e26df3a32106b7f
-SHA256: d279ac8013172d2f04f1f66342b5b5a26f88fd95b7d6843ecae796c751418c62
-Section: Tweaks
-Description: cool
-Author: wkk
-Name: 美团优化
-
-Package: com.xx.baiduhook
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 356
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/xx.百度地图优化_1.0.2-arm64.deb
-Size: 124518
-MD5sum: d0cb211557aeec5a9b9ee6934154aeda
-SHA1: 29d5d239c353e3658169fb214dd5b38a873800d7
-SHA256: 8cf2629077db9a092a80181dbbc822c0807e773d082bf1d6b4af4606558099bd
-Section: Tweaks
-Description: 功能默认开启 | 移除一些无用的悬浮 广告 板块 移除底部tab | 如果需要某功能 可以长按设置界面1-2秒出菜单自行关闭 || 1.0.2更新内容：新版支持
-Author: x✨
-Name: 百度地图优化
-
-Package: com.xx.gaodehook
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 900
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/xx.高德地图优化_1.0.4-arm64.deb
-Size: 357780
-MD5sum: c89a41bc384219f4cd73ce233a935b3d
-SHA1: 780ea948357fb172a62aca902cf6062ff577148d
-SHA256: 107eacc4a334967c62ed514afe2d7f258a268edbbbf7a81b52bab0ebac13a9b0
-Section: Tweaks
-Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
-Author: x✨
-Name: 高德地图优化
-
-Package: com.yechen.dynamicislandring
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: 夜辰
-Installed-Size: 428
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Filename: debs/yechen.灵动岛进度环_1.1.0-arm64.deb
-Size: 46174
-MD5sum: e35e592526bbfb92f415b2c14c0b96db
-SHA1: 2871756270477b8391af51c7747eecf3bbd6f4bb
-SHA256: f6af44afbc51cf7680da9598941470a3cd62677374be70b2248908a55217b004
-Section: Tweaks
-Description: 灵动岛音乐进度环增强插件
-Author: 夜辰
-Name: 灵动岛进度环
-
-Package: com.yourepo.ok95.reachplayer
-Version: 5.0.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏 <kk99588077@gmail.com>
-Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
-Size: 1259174
-MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
-SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
-SHA256: ca05dc04581ebe6c5ca9fb53653d5008e85fd132b36cb8b463284673ad4348db
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏 <kk99588077@gmail.com>
-Name: ReachPlayer音乐专辑
-
-Package: com.yourepo.ok95.reachplayer
-Version: 5.0.0
-Architecture: iphoneos-arm64
-Maintainer: 苏苏 <kk99588077@gmail.com>
-Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
-Size: 1259174
-MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
-SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
-SHA256: ca05dc04581ebe6c5ca9fb53653d5008e85fd132b36cb8b463284673ad4348db
-Section: Tweaks
-Description: ReachPlayer便捷访问音乐专辑
-Author: 苏苏 <kk99588077@gmail.com>
-Name: ReachPlayer音乐专辑
-
-Package: flex3
-Version: 1:3~Beta90
-Architecture: iphoneos-arm64
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 9.0)
-Recommends: com.rpetrich.rocketbootstrap
-Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
-Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
-Filename: debs/Flex_3_Beta90-arm64.deb
-Size: 6329640
-MD5sum: dc44a3afff8a78b393efcd883cdaec94
-SHA1: 00953fc59c00d5270cede869ad0d7b4ad4f1d029
-SHA256: 10202bc4026a4c3d54631f44855c40adf609a8f3c3c537e434ce346170decf14
-Section: Tweaks
-Description: 开发您自己的调整并在Flex社区云上共享。Dopamine2.0可生效系统补丁，内置Legacy arm64e Support补丁，加入来了老弟的汉化，感谢他的付出。Xina2.0不要安装，不要安装！！！！
-Author: John Coates
-Name: Flex 3 Beta90
-
-Package: xhs.x
-Version: 1.2.0
-Architecture: iphoneos-arm64
-Maintainer: 𝙓
-Installed-Size: 2608
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.xhshook
-Replaces: com.xx.xhshook
-Filename: debs/xx.小红书净化_1.2.0-arm64.deb
-Size: 1786192
-MD5sum: 44a6409250d05a930472b79a42577270
-SHA1: 7e9c483eb4cd980a677526154a58e186a70ef292
-SHA256: 29258cf9b2ddd7c9ffe741dee72ff566849af8495644c6d711d1bfc2d5a57944
-Section: Tweaks
-Description: 自用
-Author: 𝙓
-Name: 小红薯
+Package: com.Axs.classickeyboardxs Version: 1.1-9 Architecture: iphoneos-arm64 Maintainer: Axs Installed-Size: 1044 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader Filename: debs/netskao.键盘下调_1.1-9-arm64.deb Size: 275932 MD5sum: 171ae972af027d45256a2d9f28d5d7f3 SHA1: 897c7fe6800d309b0d713d6d132cc638c70d348e SHA256: 7329f44595532b0184703ebc7ab11c79e7225083c76b2d9f91a3940d8a487691 Section: Tweaks Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.自定义X键盘底部的高度，地球底部的高度等。可以解决1.3.7版Svp分屏开启后，地球或者语音按不动的问题。 Author: Netskao Icon: https://axs66.github.io/repo/icon/classickeyboardxs.png Name: ClassicKeyboardXS 键盘高度调整 Sileodepiction: https://axs66.github.io/repo/sileodepiction/classickeyboardxs/js.json
+
+Package: com.Doki.kbstyle Version: 1.1 Architecture: iphoneos-arm64 Maintainer: Doki Installed-Size: 372 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3) Filename: debs/doki.微信键盘背景改色_1.1-arm64.deb Size: 33076 MD5sum: 14457f5e27dd4005bb677abfb9a0a4e6 SHA1: e55bb8f0454a3dafbc2b7a737cf6c0118b8765d3 SHA256: ca170a3a55ebf62e3dabcbc67bdb3317e9214ae6e9219ddd83a1058e5c2870f8 Section: Tweaks Description: 让你的键盘更加花里胡哨！ Author: Doki Name: 键盘DIY颜色
+
+Package: com.apple.appstorenoads Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 168 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.App Store净化_1.0.0-arm64.deb Size: 4376 MD5sum: 6ceee26792188084734338cb6e80a909 SHA1: 62779e0c0a193a2e616e1e297867fe854776be05 SHA256: 4998c0d59ca5a553e6a8f21850d86d0907a6eb07f2010ec6aeecc956faa7c0b3 Section: Tweaks Description: AppStoreNoAds! Author: Apple Depiction: https://tweak.abox.plus/depictions/index.html?packageId=com.apple.appstorenoads Icon: https://tweak.abox.plus/api/packageinfo/com.apple.appstorenoads/icon.png Name: AppStoreNoAds Sileodepiction: https://tweak.abox.plus/depictions/native/com.apple.appstorenoads.json
+
+Package: com.apple.bilibili Version: 1.2.3 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 236 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.哔哩哔哩净化_1.2.3-arm64.deb Size: 22774 MD5sum: f70bac7871d503217623ef9cc09bb8a6 SHA1: 5b8f9ac8a16b1f9ecc0dea47ac6a84e40a4afea6 SHA256: 6596604f0c3586d2f1e3ebe39a50cc4edc0804e4d2d1a8c53f8ada8f08bfd625 Section: Tweaks Description: 哔哩哔哩净化相关页面与广告。无设置项，安装即可生效。 Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.bilibili Icon: https://repo.abox.plus/api/packageinfo/com.apple.bilibili/icon.png Name: 哔哩哔哩净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.bilibili.json
+
+Package: com.apple.neteasemusic Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 220 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.网易云净化_1.0.0-arm64.deb Size: 18316 MD5sum: f51bffcaf784b7724dedd33c7d3da553 SHA1: b6b3e912c93d8b4c526b23d6f32340c0db73ec20 SHA256: ed1fbdb7be323c7c556f3e7fe2307479c843eb1dea7da21bb0512619e7abb25c Section: Tweaks Description: 净化网易云音乐的广告！ Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.neteasemusic Icon: https://repo.abox.plus/api/packageinfo/com.apple.neteasemusic/icon.png Name: 网易云音乐 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.neteasemusic.json
+
+Package: com.apple.purejd Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.京东净化_1.0.0-arm64.deb Size: 14182 MD5sum: b4b5445c98b5722552a02b483514a109 SHA1: 110aa97d7fcab4bc5bf09c606781ad918fa95a6a SHA256: 40350819ee4f010eacca539bae9b48f6b05b994fff22ece8a3d68fd66d89b490 Section: Tweaks Description: 京东净化插件：删除首页秒送专区和推荐、删除底部Tabbar逛一逛和直播、删除搜索页面的推荐和热门搜索、删除订单详情页面的推荐等、删除商品详情页的商品推荐和配件中心等、删除购物车推荐、删除我的页面杂项、删除启动广告。感谢@Pual的支援。 Author: Apple Depiction: https://tweak.abox.plus/depictions/index.html?packageId=com.apple.purejd Icon: https://tweak.abox.plus/api/packageinfo/com.apple.purejd/icon.png Name: 京东净化 Sileodepiction: https://tweak.abox.plus/depictions/native/com.apple.purejd.json
+
+Package: com.apple.purepdd Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 188 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.拼多多净化_1.0.0-arm64.deb Size: 11582 MD5sum: 2e3f3ed0b00a8f2e3a501bdf653d3bfb SHA1: ce4ca2cc244804eecf0de5ea8ab28b499f59e859 SHA256: 1d8775d87ce9fda5a053ff6457ab99076ed650c308a646a91e87884dfac1c839 Section: Tweaks Description: An awesome MobileSubstrate tweak! Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purepdd Icon: https://repo.abox.plus/api/packageinfo/com.apple.purepdd/icon.png Name: 拼多多净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purepdd.json
+
+Package: com.apple.puretaobao Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.淘宝净化_1.0.0-arm64.deb Size: 16104 MD5sum: d4d8cc16b1a62e8fa0d28e8f617046f5 SHA1: e3702886faf25d03352ce2479927332554ac3fc6 SHA256: c50c6634ca5a34af1720f8f86f0c6147591b10137fd49b10d31190c222ae1d4f Section: Tweaks Description: 淘宝净化，最高支持v10.39.30! Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.puretaobao Icon: https://repo.abox.plus/api/packageinfo/com.apple.puretaobao/icon.png Name: 淘宝净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.puretaobao.json
+
+Package: com.apple.puretaobao.new Version: 1.1.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.淘宝净化_1.1.0-arm64.deb Size: 12298 MD5sum: 2ce95da8093ee371c6a60791e588d7ad SHA1: 490fa948a452b770caa5cd122f48c60c39f9c1f9 SHA256: 6350ecfed129344877ca7f28a9765a8511001e4bc937e1bc0f5fa3a789295c75 Section: Tweaks Description: 淘宝净化插件! Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.puretaobao.new Icon: https://repo.abox.plus/api/packageinfo/com.apple.puretaobao.new/icon.png Name: 淘宝净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.puretaobao.new.json
+
+Package: com.apple.puretieba Version: 1.0.8 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 236 Depends: mobilesubstrate Filename: debs/Apple.百度贴吧净化_1.0.8-arm64.deb Size: 20242 MD5sum: 46aaf45f6072fd56f0b162bfe6e5969f SHA1: 605d18a330be11d881108d3f53972a65a2419dbd SHA256: 444ceec49d4514b594604b3f2afcb6942172d0ec78396ebfa8d88c6f0e7996cf Section: Tweaks Description: 百度贴吧去广告插件 Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.puretieba Icon: https://repo.abox.plus/api/packageinfo/com.apple.puretieba/icon.png Name: 百度贴吧净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.puretieba.json
+
+Package: com.apple.purexhs Version: 1.0.3 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.小红书净化_1.0.3-arm64.deb Size: 14648 MD5sum: ffd1fe8f232a54ab09eba915bd6833e9 SHA1: eb252d2446336dedf3ba6c0be2c50057501858f8 SHA256: 23ea6b67637a97c6b3bebc30bd5824e74bd13e447e2bb50b1f5eb88805e9559f Section: Tweaks Description: 小红书去广告 Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purexhs Icon: https://repo.abox.plus/api/packageinfo/com.apple.purexhs/icon.png Name: 小红书净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purexhs.json
+
+Package: com.apple.purexmly Version: 1.0.1 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 236 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.喜马拉雅净化_1.0.1-arm64.deb Size: 25710 MD5sum: c1c31503c5a00f0a0d7791dbd78ab0e2 SHA1: 83d5329c33494f6c592b329c4b56e911bdee2733 SHA256: 502ab4a174c2b89e5c7d7aa8ff91c86fa1b0405c726aeb8167664b12ebce3a57 Section: Tweaks Description: 净化喜马拉雅，解锁部分VIP资源! Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.purexmly Icon: https://repo.abox.plus/api/packageinfo/com.apple.purexmly/icon.png Name: 喜马拉雅净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.purexmly.json
+
+Package: com.apple.qqmusic Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.QQ音乐净化_1.0.0-arm64.deb Size: 18516 MD5sum: 6291886df297ac85a797cff0578c0684 SHA1: a5683441c3e89708ad3dc9efac4def58a6804d28 SHA256: 9f8e9fad677d254f2c01932a359b174d76691bc57342c0a42b199684eefb1f45 Section: Tweaks Description: 仅供测试严禁商用，请于下载后24小时内彻底删除！QQ音乐精简广告，解锁至臻音质2.0! Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.qqmusic Icon: https://repo.abox.plus/api/packageinfo/com.apple.qqmusic/icon.png Name: QQ音乐净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.qqmusic.json
+
+Package: com.apple.wechat.noads Version: 1.2.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 272 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.微信净化_1.2.0-arm64.deb Size: 33346 MD5sum: 837d923461d198d2318ed501a607ba06 SHA1: 87fb2c1f4f953c9cf87fb7208e0cc2c625b76115 SHA256: 86510d9b5641a720159512f0ea364dbe7fc9b0c2ab2da0bb72d6adeb6aa89a43 Section: Tweaks Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  插件仅供本人测试使用，下载后请于24小时内删除! Author: Apple Name: 微信广告净化助手
+
+Package: com.apple.wechat.noads Version: 1.2.1 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 252 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/Apple.微信净化_1.2.1-arm64.deb Size: 30140 MD5sum: cfaa08fefc13ce1f2da910c6f97f7f73 SHA1: d12c0a4c07b062725db30c3c607ab984fce57ac8 SHA256: 7855d21b97a31aec867b638579ac1dd57e862999df62808d637fb9fb4f6e96e6 Section: Tweaks Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!  插件仅供本人测试使用，下载后请于24小时内删除! Author: Apple Name: 微信广告净化助手
+
+Package: com.apple.weibo Version: 1.2.5 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 236 Depends: mobilesubstrate Filename: debs/Apple.微博净化_1.2.5-arm64.deb Size: 27212 MD5sum: f9304871ff18b75cf589dc065397585e SHA1: d423941d8d5452f7ccbc2e286f3eddc6233d6a0b SHA256: 352524e30c7810d5c3be7026ddb60aa1fac1288fe484b2ad44fd78e724089c42 Section: Tweaks Description: 删除启动页、信息流、视频流、评论列表、发现等页面的广告，支持修改设备型号。 Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.weibo Icon: https://repo.abox.plus/api/packageinfo/com.apple.weibo/icon.png Name: 微博去广告 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.weibo.json
+
+Package: com.apple.zhihu Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: Apple Installed-Size: 204 Depends: mobilesubstrate Filename: debs/Apple.知乎净化_1.0.0-arm64.deb Size: 18404 MD5sum: 315e683c995025120503c09ea1bc0db9 SHA1: 8c435688fb723fae5b6c989f100b246283ab3ed6 SHA256: 3802434bcade8d67fd8f20e2df6cf022b3f844bee9f72dfbcbaa3be2d9d61eb5 Section: Tweaks Description: 知乎净化广告插件 Author: Apple Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.apple.zhihu Icon: https://repo.abox.plus/api/packageinfo/com.apple.zhihu/icon.png Name: 知乎净化 Sileodepiction: https://repo.abox.plus/depictions/native/com.apple.zhihu.json
+
+Package: com.axs.ios16dao Version: 5.2.0-161 Architecture: iphoneos-arm64 Maintainer: Axs Installed-Size: 608 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist Filename: debs/axs.灵动岛ios16_5.2.0-161-arm64.deb Size: 67044 MD5sum: fc419fa2e9f9dab18cf651fa200adcd1 SHA1: cdebcd1c14b05c49d45c49db6b731d0e7faa242c SHA256: 88029d37d2e1cd21874a88e96103f2a60357a0178e215f41de9a73e028cc1c07 Section: Tweaks Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T Author: Axs Icon: https://axs66.github.io/pro/icon/dynamicnotland.png Name: ios16灵动岛 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
+Package: com.axs.ios16dao Version: 5.2.0-177 Architecture: iphoneos-arm64 Maintainer: Axs Installed-Size: 592 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist Filename: debs/axs.灵动岛ios16_5.2.0-177-arm64.deb Size: 67104 MD5sum: e8adc5e877101c175493289bf858e899 SHA1: 4cdba911b7703d55a248ab23e88a694e264dd1b3 SHA256: 442d139c5d66f80479440a98671341048c78cfd6f19c4821221b8310e9540c5f Section: Tweaks Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。集成授权校验联系:VCR66T Author: Axs Icon: https://axs66.github.io/pro/icon/dynamicnotland.png Name: ios16灵动岛 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
+
+Package: com.axs.screenshellpro Version: 5.2.0-61 Architecture: iphoneos-arm64 Maintainer: Axs Installed-Size: 540 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader Filename: debs/axs.全局水印_5.2.0-61-arm64.deb Size: 51728 MD5sum: 6ae4d8266a96dcd5264efc6d33c813a6 SHA1: 629fc1fee0fc7288ad0d2beec4b3ba4c88e5f7ea SHA256: feceb46e0afeb5672dcebcedaa44fe2dcc0373b93f8a5ef02b8f6e13089580c4 Section: Tweaks Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T  * 1. 录屏套壳渲染极快。  * 2. 渲染过程中手机不发烫。  * 3. 插件不需要任何依赖。  * 4. 本插件是目前市面上最好的录屏套壳渲染工具。 Author: Axs Icon: https://axs66.github.io/pro/icon/screenshellpro.png Name: ScreenShell Pro Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
+
+Package: com.baiy.keyboardhook Version: 2.0-6+debug Architecture: iphoneos-arm64 Maintainer: baiy(QQ：961666883) Installed-Size: 524 Depends: mobilesubstrate, firmware (>= 15.0) Filename: debs/baiyi.键盘自定义_2.0-6-arm64.deb Size: 47728 MD5sum: af368a36f5385e3558251e473da9be77 SHA1: 15b6fb1c3cf91392878bc8f51bc3c77e4dfdb7d6 SHA256: 6c8d43a4db9b1c6213a4cfe6d1407f0dec5c8c52f4a83d683879f667a6f0b296 Section: Tweaks Description: 关于系统输入法和微信输入法的一些自定义，让键盘更个性化！ Author: baiy Name: KeyboardHook
+
+Package: com.baiy.switchtheme Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: baiy（qq：961666883）） Installed-Size: 240 Depends: mobilesubstrate Filename: debs/baiyi.牙齿_1.0.0-arm64.deb Size: 27752 MD5sum: c43f16be4b9d53b43bfee76d257cd548 SHA1: ea6e4b5f6b22724aa416324333a4555f944c2176 SHA256: 2c9c91c5031e46f2339f3d4ac82c82f962bd02336c1503e8143d9485824fd15c Section: Tweaks Description: 灵感源自牙齿线条的极简开关，圆润而洁净，温润而纯粹。滑动之间，如唇齿轻启，带来指尖柔滑的精致体验 Author: 白衣 Name: SwitchTheme——牙齿
+
+Package: com.be-huge.floating-view Version: 1.5.9-licensed Architecture: iphoneos-arm64 Maintainer: be-huge (Modified) Installed-Size: 2700 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2) Filename: debs/be-huge.分屏_1.5.9-arm64.deb Size: 1084808 MD5sum: 706943df5286405fda6b4342e8c3eea3 SHA1: ed28e6ecaa9a5316c5d56d953528d02dd0b2f0d8 SHA256: 8df8b392e6889c03259a996cb73f7576dc7f31c8ca06d5461bbba242300ed3c0 Section: Tweaks Description: 分屏，不必太复杂，一切从简即可。此版本包含授权验证机制，需要激活码才能使用。使用 floatingview-license 命令管理授权。 Author: be-huge Icon: https://s1.imagehub.cc/images/2025/01/11/a6ee9b7d3555d062c59b68c2c71c7406.png Name: floatingView (授权版) Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/floatingView.json
+
+Package: com.binglan.kzmh Version: 1.0.1 Architecture: iphoneos-arm64 Maintainer: binglan Installed-Size: 356 Depends: mobilesubstrate, firmware (>= 15.0) Filename: debs/binglan.控制中心美化_1.0.1-arm64.deb Size: 18916 MD5sum: 80e5b7db0ed1b6f4372484a6ea20ba76 SHA1: df6b542a66f0db409f6f412585f91e144888dfc7 SHA256: 55bf3dab4a23d7fbc981eff7c81f3c08a2fb35de01d0183dd9a457d5baa29702 Section: Tweaks Description: 神秘功能。 Author: binglan Name: 控制中心美化
+
+Package: com.binglan.kzmh Version: 1.0.5 Architecture: iphoneos-arm64 Maintainer: binglan Installed-Size: 356 Depends: mobilesubstrate, firmware (>= 15.0) Filename: debs/binglan.控制中心美化_1.0.5-arm64.deb Size: 20604 MD5sum: be3422e6aab99bd7059787b42e222853 SHA1: c4b566fbb026c5f70a9cf47853f7b57123aecf31 SHA256: d8e2ed50d27de9a11dafed55aa06c91e4952140dc264ba71183aaeef593bdbbb Section: Tweaks Description: 神秘功能。 Author: binglan Name: 控制中心美化
+
+Package: com.binglan.kzmh Version: 1.0.5-1 Architecture: iphoneos-arm64 Maintainer: binglan Installed-Size: 356 Depends: mobilesubstrate, firmware (>= 15.0) Filename: debs/binglan.控制中心美化_1.0.5-1-arm64.deb Size: 21512 MD5sum: b0df61d845089f15a2c0547d69980d71 SHA1: d9e6205c5d038ff6734651397415bb7d57ac12e7 SHA256: 7f4fe51db1277b6412191ca5e61d88fb73617a003846b5b9f78096d5ffa8203b Section: Tweaks Description: 神秘功能。 Author: binglan Name: 控制中心美化
+
+Package: com.binglan.kzmh Version: 1.0.6 Architecture: iphoneos-arm64 Maintainer: binglan Installed-Size: 376 Depends: mobilesubstrate, firmware (>= 15.0) Filename: debs/binglan.控制中心美化_1.0.6-arm64.deb Size: 20792 MD5sum: 4efe657677ff3e633c841e161683271c SHA1: b7b537968e3e8e6380719a0dce4ce9c780a9d117 SHA256: 1fc5a372cba5d7c0673a40faca22af9ec001fd80be7e7cec3dc83bd1f9faeb39 Section: Tweaks Description: 神秘功能。 Author: binglan Name: 控制中心美化
+
+Package: com.binglan.kzmh Version: 1.0.8 Architecture: iphoneos-arm64 Maintainer: binglan Installed-Size: 392 Depends: mobilesubstrate, firmware (>= 15.0) Filename: debs/binglan.控制中心美化_1.0.8-arm64.deb Size: 25684 MD5sum: dec4e935a8f3582a06b5bb2b3d271e15 SHA1: 5da944bcea17ad140b7e9b3838281b913bf21fa3 SHA256: 6ddc9acace51819fe3c0688bd6282e55878f181492ce011bfb58d23617e835ac Section: Tweaks Description: 神秘功能。 Author: binglan Name: 控制中心美化
+
+Package: com.binglanqjsy.deb Version: 2.1.0 Architecture: iphoneos-arm64 Maintainer: binglan Installed-Size: 504 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16) Filename: debs/binglan.全局水印_2.1.0-arm64.deb Size: 38152 MD5sum: 6c96a5730626271a5ab289b8c779dee5 SHA1: 506f8cc61d1f63baa3264d09542819e955286abb SHA256: 3c72294a250a48a4ed9edae94c822219c84ebf66f346ceab34d5e0fde7351f5d Section: Tweaks Description: 添加全局水印相关功能，支持截屏水印，录屏水印，套壳截图。 Author: binglan Name: 全局水印
+
+Package: com.binglanqjsy.deb Version: 2.2.4 Architecture: iphoneos-arm64 Maintainer: 冰蓝 Installed-Size: 596 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16) Filename: debs/binglan.全局水印_2.2.4-arm64.deb Size: 60644 MD5sum: 32f057567c9d9ce9af2b90c21c346a8c SHA1: dbdcc49628d3a0fd8773cee50da1417aa5186ec2 SHA256: 7a61ad571aad30774db9434cb560b6c5501aad5711af30d54b0f16bc99222e77 Section: Tweaks Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。 Author: 冰蓝 Name: 全局水印
+
+Package: com.binglanqjsy.deb Version: 2.2.5 Architecture: iphoneos-arm64 Maintainer: 冰蓝 Installed-Size: 660 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16) Filename: debs/binglan.全局水印_2.2.5-arm64.deb Size: 66420 MD5sum: 57a57193052225ca7a08f258e8802557 SHA1: ef7f6d76a9a4b6a203ac7cf9b3b1d92cd3839694 SHA256: e25c07078b83ccf0b705636c4478d269f7325287793584dac5f6debfe1f8625c Section: Tweaks Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。 Author: 冰蓝 Name: 全局水印
+
+Package: com.binglanqjsy.deb Version: 2.2.6 Architecture: iphoneos-arm64 Maintainer: 冰蓝 Installed-Size: 780 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16) Filename: debs/binglan.全局水印_ 2.2.6-arm64.deb Size: 88136 MD5sum: 5d35c20577026d9c14ed9fc55489c1e4 SHA1: 0c52fd33a9cdc4991bcceb7baaf23c5531e5ee73 SHA256: 8c78d2f3d8c0b1d498bf853395b6ef7026232c443561deac8abbc4d9fc95b9d5 Section: Tweaks Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。 Author: 冰蓝 Name: 全局水印
+
+Package: com.binglanqjsy.deb Version: 3.0.0 Architecture: iphoneos-arm64 Maintainer: 冰蓝 Installed-Size: 908 Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16) Filename: debs/binglan.全局水印_3.0.0-arm64.deb Size: 109384 MD5sum: 486e04ca0c72ce1b6b37ec11c88f8fbe SHA1: de6ff6d33fb31403a1ddc31ff6572434cbfe0002 SHA256: e938b17ad5314299266f13ec9b41591e41c0c6ddbb213067663af4d7b8d56962 Section: Tweaks Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。 Author: 冰蓝 Name: 全局水印
+
+Package: com.charlieleung.trollopenjb Version: 1.2.8 Architecture: iphoneos-arm64 Maintainer: Charlie Leung Installed-Size: 13344 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist Filename: debs/charlie.分屏_1.2.8-arm64.deb Size: 1981616 MD5sum: 2f9c7b325ba038a064ae14fa4e6b2a30 SHA1: f639739acc773381913964425e1ffc908c48303a SHA256: 7667c9a85ab4c5ffb30311f8a12871a5ef12336ecc02b816021c4fb240169733 Section: Tweaks Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios16 及以上。 Author: Charlie Leung Name: TrollOpen
+
+Package: com.dao.appdata Version: 9.9.9 Architecture: iphoneos-arm64 Maintainer: Nets Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader Conflicts: com.netskao.appdata, netskao.appdata-rootless Filename: debs/fouad.appdata降级_9.9.9-arm64.deb Size: 823356 MD5sum: d76e1bce5683880cf62816cf2cb1ac3e SHA1: 9f30ee0e8a06e6bb410094bfdef83ddee74fa3bf SHA256: 0f5330934b7e7a152e0aa6c355e310273c86086df556784914589f05713445fc Section: Tweaks Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。 Author: Fouad Raheb Name: AppData(rootless)
+
+Package: com.dvntm.infuseplus Version: 1.2.0 Architecture: iphoneos-arm64 Maintainer: dvntm Installed-Size: 420 Depends: mobilesubstrate Filename: debs/dvntm.infuseplus_1.2.0-arm64.deb Size: 125280 MD5sum: fee899c4a2b4254669f2327b7d349bf3 SHA1: eb98046e58e4b45e2f3beacec785cf8180c863bf SHA256: c8c8af3b38c8dcc2c4f5511dd20ee05e62bfaa9cbc3e9026a6dbe4280198721a Section: Tweaks Description: Enhancer for Infuse app Author: dvntm Icon: https://i.imgur.com/C5MLSXo.png Name: Infuse Plus Sileodepiction: https://raw.githubusercontent.com/dayanch96/icons/main/infuseplus.json
+
+Package: com.hw.dzyjvip Version: 0.0.1 Architecture: iphoneos-arm64 Maintainer: 🅷🆆 Installed-Size: 2192 Depends: mobilesubstrate Filename: debs/hw.地震预警_0.0.1-arm64.deb Size: 431472 MD5sum: 0a9e1e741f8b422ada42d77d48a42776 SHA1: 41e99f6ffe37b675d3743ae9baf32b66e12a73f7 SHA256: 3c1864a5bc41e333ae347958c82dff3db46f44686c29c31fa054ee0acbc4f0ab Section: Tweaks Description: 解锁会员 - TG：@HelloWorld_1024 Author: 🅷🆆 Name: 🅷🆆 地震预警
+
+Package: com.ios16dao Version: 5.2.0-100 Architecture: iphoneos-arm64 Maintainer: Axs Installed-Size: 516 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader Filename: debs/axs.灵动岛ios16_5.2.0-100-arm64.deb Size: 55764 MD5sum: 2223ae925766ac95bac914aad5bad9bd SHA1: 583a0efa498d77c13836c366207c043c9157097e SHA256: 29ad6b936e75a59678568d63c6f0482aa1e2a931afc5804e5e2308e46880e9c5 Section: Tweaks Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。 Author: Axs Name: ios16灵动岛
+
+Package: com.ios16dao Version: 5.2.0-125 Architecture: iphoneos-arm64 Maintainer: Axs Installed-Size: 524 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader Filename: debs/axs.灵动岛ios16_5.2.0-125-arm64.deb Size: 55708 MD5sum: 0560396e617a7c7edab8e5a66fbed437 SHA1: be2133020b7de62fd1df486805f9a025acff4d2a SHA256: 3f9efc6b1e62564c9ff75624e04e06d22a4b0e0ae7c8ed2d57c5136fdd64018c Section: Tweaks Description: 灵动岛媒体美化增强，支持 PNG/JPG/GIF/MP4,录屏隐藏原生岛与阴影兼容控制。 Author: Axs Name: ios16灵动岛
+
+Package: com.iosdump.appdata Version: 1.8.9 Architecture: iphoneos-arm64 Maintainer: iosdump Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata Filename: debs/fouad.appdata降级_1.8.9-arm64.deb Size: 295646 MD5sum: b5c98484bd80a112c770f148e9d98b88 SHA1: e4ec2cd31dc094a151a5cbb642893637132e9be1 SHA256: d223a6c972bdaa8c5ee96854f395f2770752b75302a2e97aed0c945e28e43d6b Section: Tweaks Description: 从主屏幕查看和管理应用数据 Author: Fouad Raheb Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png Name: AppData
+
+Package: com.iosdump.appdata Version: 1.9.0 Architecture: iphoneos-arm64 Maintainer: iosdump Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata Filename: debs/fouad.appdata降级_1.9.0-arm64.deb Size: 299838 MD5sum: fd7640699fbfc344b5bbc20fb04df4b6 SHA1: 0a087669b9e694f79ced17fa18e340a1a1404bfe SHA256: c5392e0d920c3cdeac737d5573b40954f76337f68bcc88ab5b929a560c689281 Section: Tweaks Description: 从主屏幕查看和管理应用数据 Author: Fouad Raheb Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png Name: AppData
+
+Package: com.iosdump.appdata Version: 1.9.1 Architecture: iphoneos-arm64 Maintainer: iosdump Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata Filename: debs/fouad.appdata降级_1.9.1-arm64.deb Size: 300058 MD5sum: 6ea3b0ec0b26e22c70e8a89f5e4047dc SHA1: 0ab1301ae35b6997dd54617e18a9e2ea5c3e2292 SHA256: c2f798715129b7bc1888a9bd6a4a2c0c3f91dde441d79ffc828e366700c1d527 Section: Tweaks Description: 从主屏幕查看和管理应用数据 Author: Fouad Raheb Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png Name: AppData
+
+Package: com.iosdump.appdata Version: 1.9.2 Architecture: iphoneos-arm64 Maintainer: iosdump Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata Filename: debs/fouad.appdata降级_1.9.2-arm64.deb Size: 306308 MD5sum: 8dc04fda4afc23c2df1d3dd5b59e4346 SHA1: 01c74551d93ee1926fc15eadc979dfbc90b76d49 SHA256: 0b73c7dd1784d3e46659abc64180b8260a6577436fad5dc674c3b5cf001f0288 Section: Tweaks Description: 从主屏幕查看和管理应用数据 Author: Fouad Raheb Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png Name: AppData
+
+Package: com.iosdump.filzacarplugin Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: iosdump Installed-Size: 10644 Filename: debs/iosdump.提取与修改Assets.car资源_1.0.0-arm64.deb Size: 5421184 MD5sum: 3d14d1a1c533f49dc6dcc88ad23b1e55 SHA1: 77206928fc18ae50a21a2357be9703a6c76cb99b SHA256: fedf800f3de6eed4d9f683e9cdae4b5eee076a27c46c540a2efb0bfbf459c87d Section: Tweaks Description: 提取与修改 Assets.car 资源 (Filza 插件) Author: iosdump Name: FilzaCarPlugin
+
+Package: com.link.aweme Version: 1.0.5 Architecture: iphoneos-arm64 Maintainer: Link Installed-Size: 472 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/link.抖音净化_1.0.5-arm64.deb Size: 73768 MD5sum: 47318d9de6a5812239164259f7b0a4f3 SHA1: 5a939c312b9a14f14b2be2ad4b998b562e689463 SHA256: d77d4ec20d25581ed08e791fe221e3caa9fe15d3c768003939583d465a6ded2a Section: Tweaks Description: An awesome tweak for Aweme! Author: Link Depiction: https://tweak.abox.plus/depictions/index.html?packageId=com.link.aweme Icon: https://tweak.abox.plus/api/packageinfo/com.link.aweme/icon.png Name: 抖音增强 Sileodepiction: https://tweak.abox.plus/depictions/native/com.link.aweme.json
+
+Package: com.liuf.lddfg Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: liuf <1602389262> Installed-Size: 356 Depends: mobilesubstrate Filename: debs/liuf.灵动岛发光_1.0.0-arm64.deb Size: 12780 MD5sum: 40818d11e975f0ac5e22a1bc7f2cb54f SHA1: 9c767470c545b3113748aebf2f9dc02b4e3d32fe SHA256: e304ed2e453852ca638551e193f88adfd464089905efec97bcaf39f86f889915 Section: Tweaks Description: 灵动岛发光效果！ Author: liuf <1602389262> Name: lddfg
+
+Package: com.liuf.musicfg Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: liuf <1602389262> Installed-Size: 356 Depends: mobilesubstrate Filename: debs/liuf.音乐播放器发光_1.0.0-arm64.deb Size: 14730 MD5sum: a0167ab268f1dfe7c4878a777e69b657 SHA1: 0345214d8cc171c147dea9f1a908729e1bff83fc SHA256: 0c94374cb6ec18247ceda3ad02eeac4bec06c958623cee3f276be7f1a2cdc7dd Section: Tweaks Description: 夜辰私人定制 i! Author: liuf <1602389262> Name: 音乐播放器发光效果
+
+Package: com.liuf.zfk Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: liuf <1602389262> Installed-Size: 364 Depends: mobilesubstrate Filename: debs/liuf.主副卡_1.0.0-arm64.deb Size: 15520 MD5sum: e478e99303e56ca5d68625af930f488e SHA1: 4c9b41af25166e83be80dbee0a793088e6733f94 SHA256: c551698076c3a145da934a0842d472e757cc6de0794123918b83be1df4f08ad4 Section: Tweaks Description: 将控制中心主副卡显示为自己喜欢的图片 可自定义 有设置项可自定义高低上下! Author: liuf <1602389262> Name: Liuf's 主副卡
+
+Package: com.mtac.vitreux Version: 1.4 Architecture: iphoneos-arm64 Maintainer: Axs Installed-Size: 7028 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0) Filename: debs/mtac.液态玻璃_1.4-arm64.deb Size: 121300 MD5sum: 5a9ed2795d088ca751fcc1001e36bc05 SHA1: b25d03b6705ed0776ac2097087afa8ab6c603f9a SHA256: d73919662745826eefc79262d8004a552a4d74952dd71a51592f257ddebaa91e Section: Tweaks Description: A recreation of Liquid Glass   * 1.主打 iOS 26 系统液态玻璃设计。   * 2.让旧系统体验液态玻璃风格。   * 3.目前版本，效果主要体现在锁屏、主屏、控制中心、通知、App 资源库、小组件等。   * 4.自定义选项丰富。可以自定义模糊设置等。   * 5.目前仅仅支持 SpringBoard 范围。   * 6.支持 iOS 15.x - 16.x 系统。 Author: MTAC Icon: https://axs66.github.io/repo/icon/vitreux.png Name: Vitreux 液态玻璃 Sileodepiction: https://axs66.github.io/repo/sileodepiction/vitreux/js.json
+
+Package: com.niceios.mrshi-roothide Version: 1.0.0.2-54 Architecture: iphoneos-arm64e Maintainer: MrShi Installed-Size: 2368 Depends: mobilesubstrate Filename: debs/MrShi.全局系统颜色自定义_1.0.0.2-54-arm64e.deb Size: 554970 MD5sum: ab3bbc44c595a8ad00ec050847c570c5 SHA1: 4de4c00605f42db3d1623afc9a9509406b7eba00 SHA256: 8759fdec529e757824d5177b03cec4ac2686ff48dad60649899b296b9e8eef5a Section: RootHide Description: 全局系统颜色自定义 Author: MrShi Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor Name: MrShi(Roothide) Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
+
+Package: com.niceios.mrshi-rootless Version: 1.0.0.2-235 Architecture: iphoneos-arm64 Maintainer: MrShi Installed-Size: 2352 Depends: mobilesubstrate Filename: debs/MrShi.全局系统颜色自定义_1.0.0.2-235-arm64.deb Size: 547636 MD5sum: 2c3a4ecc34a9a7ca1d5ad7d2e9df1967 SHA1: cb140335246cc17af724165a0fc478e286422f36 SHA256: e004c28f173e8da9baf64f4de12a47dad2b7a2f0eef6fa8c1015635a85f92c52 Section: Tweaks Description: 全局系统颜色自定义 Author: MrShi Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor Name: MrShi(Rootless) Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
+
+Package: com.removewidgetbg Version: 2.0 Architecture: iphoneos-arm64 Maintainer: Lessica <82flex@gmail.com> Installed-Size: 436 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist Filename: debs/lessica.透明小组件_2.0-arm64.deb Size: 30988 MD5sum: 267f4ed4f23eabdd24fa2fc26ee727e4 SHA1: be4fc67f260107157851cf43f1570c3fc1961571 SHA256: ec5d9e910f40c3f420a95ded924a4f6f0224b8966796bbe72e890b92a5b9388e Section: Tweaks Description: 删除主屏幕上小部件的背景。 Author: Lessica <82flex@gmail.com> Name: 透明小组件
+
+Package: com.simon.ccglow Version: 2.0.3 Architecture: iphoneos-arm64 Maintainer: Simon Installed-Size: 384 Depends: mobilesubstrate Filename: debs/simon.控制中心发光_2.0.3-arm64.deb Size: 24102 MD5sum: ca0f3464b198d2d0daf7969d988b6633 SHA1: 0fb875518d06f0117cae89fb7ea28be24265511c SHA256: cf903c342bd4978d15cf7c22dc9f58d8fbda162c0f065abe05dd2bb6b67ae4fa Section: Tweaks Description: 控制中心发光 Author: Simon Name: 控制中心发光
+
+Package: com.simon.ccweathermodule Version: 1.0.4 Architecture: iphoneos-arm64 Maintainer: simon Installed-Size: 356 Depends: mobilesubstrate, firmware (>= 14.0) Filename: debs/simon.控制中心天气_1.0.4-arm64.deb Size: 92602 MD5sum: 5f02e4b95febca197e076807f58364e3 SHA1: d508a400b1dadf035d527fb7f982d265b93cb306 SHA256: 77bdda036184bd87b9559ba799a41f6473b10a33dcbac7f6ea38e999a53d448d Section: Tweaks Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。 Author: simon Name: CCWeather Module
+
+Package: com.simon.controlcenterlayout Version: 2.1 Architecture: iphoneos-arm64 Maintainer: Simon Installed-Size: 620 Depends: mobilesubstrate Filename: debs/simon.控制中心模块_2.1-arm64.deb Size: 90492 MD5sum: 4c5f78f0a61036f6d679f64f45184325 SHA1: 532d36f6ef62cc61da4c34fd9a282f7a49a3038e SHA256: 22e4510063bf62db09c41587442c316701d95d35b191e97aa53db6c6dbedbdf7 Section: Tweaks Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。 Author: Simon Name: 控制中心模块
+
+Package: com.sini.zfbhook Version: 1.5.5 Architecture: iphoneos-arm64 Maintainer: ylr Installed-Size: 204 Depends: mobilesubstrate, firmware (>= 14.0) Filename: debs/ylr.支付宝步数_1.5.5-arm64.deb Size: 17528 MD5sum: e752c3f4abf55f138f6c4795fe203c94 SHA1: f5e932986ebd9d9b8f776d733218803364cc5e76 SHA256: 045456569735b0a2403adcaf7f043b0f702648d758bdf1abfa4ed6467616b420 Section: Tweaks Description: 领一下能量哦、长按底栏1秒 Author: ylr Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png Name: 支付宝步数(rootless) Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
+
+Package: com.sini921.ccloader Version: 0.0.1-5 Architecture: iphoneos-arm64 Maintainer: 橙子 Installed-Size: 360 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/sini.ccloader_0.0.1-5-arm64.deb Size: 144600 MD5sum: 99358fe9b1185673e0790b84a017483b SHA1: e467e612f41fd11c1b4120f91d056c130baf4410 SHA256: 9e09b1ad585ca16f7d9af6dc78a99e0e8bcc1a2f996437ec10de8fef9d3160b4 Section: Tweaks Description: 控制中心CAPackage加载器 Author: 橙子 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png Name: CCLoader(rootless) Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
+
+Package: com.sini921.ccloader Version: 0.0.1-6 Architecture: iphoneos-arm64 Maintainer: 橙子 Installed-Size: 360 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/sini.ccloader_0.0.1-6-arm64.deb Size: 144508 MD5sum: c6c813778d264e774eca7a04cf97969e SHA1: b04e0c5b14fa04b29985de01918e54f895c659a3 SHA256: 2cb239144d2ccffc36da96aaa3ee1e8eff863ee9b0ff1f9a631e6d7fe207ad31 Section: Tweaks Description: 控制中心CAPackage加载器 Author: 橙子 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png Name: CCLoader(rootless) Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
+
+Package: com.sini921.ccloader Version: 0.0.1-7 Architecture: iphoneos-arm64 Maintainer: 橙子 Installed-Size: 360 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/sini.ccloader_0.0.1-7-arm64.deb Size: 145168 MD5sum: d62021e954fc9bc1c93bf493964438af SHA1: 19cfdc724f942023d672889f6e8ee6cc98393177 SHA256: 7e72435b53e5e5d18c958d3c139a5bc510afd0bd85d2c37af493f4a0823c4973 Section: Tweaks Description: 控制中心CAPackage加载器 Author: 橙子 Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png Name: CCLoader(rootless) Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
+
+Package: com.sini921.photohub Version: 0.0.1-5 Architecture: iphoneos-arm64 Maintainer: SINI Installed-Size: 440 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/sini.photohub_0.0.1-5-arm64.deb Size: 58612 MD5sum: 577aa2af4114dc0756ee23f8fba8c06d SHA1: a0a9e1c5005e2c347e41b16925df2b9df7e54431 SHA256: 5fb41b4c78c4956e4c202e50eb3c01fac278fb34206b064bab18e5ffcf4f1a4a Section: Tweaks Description: 系统相册App简单优化 Author: SINI Icon: https://sini921.github.io/repo/sileodepiction/icon/photohub.png Name: PhotoHub(rootless) Sileodepiction: https://sini921.github.io/repo/sileodepiction/photohub/js.json
+
+Package: com.sini921.reachplayer Version: 2.26-3 Architecture: iphoneos-arm64 Maintainer: ETHN & SINI & 鲨鱼 Installed-Size: 3440 Depends: mobilesubstrate Filename: debs/sini.音乐控制器_2.26-3-arm64.deb Size: 2547330 MD5sum: 5d9e67eccdb9d37c70e2cbfd8879e34b SHA1: 3a78c3b6e52fe4251bdf8594d4ba170a5562e83d SHA256: 3fc2d07a10e397f5d996c25f11419aca0f2dd086b0af4015ac44b1e737a1b520 Section: Tweaks Description: 在便捷访问模式上方的空白处增加音乐控制器，基于开源优化编译。 Author: ETHN & SINI & 鲨鱼 Icon: https://sini921.github.io/repo/sileodepiction/icon/reachplayer.png Name: ReachPlayer(rootless) Sileodepiction: https://sini921.github.io/repo/sileodepiction/reachplayer/js.json
+
+Package: com.spark.laetus Version: 3.5.1-rootless Architecture: iphoneos-arm64 Maintainer: Spark Installed-Size: 1828 Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1) Filename: debs/spark.laetus汉化版_3.5.1-arm64.deb Size: 835000 MD5sum: fdb71af55a9c74ad217b4208a3f1d92b SHA1: 5a7dd9b9629f59e3ea7d9671134a9888afffbc73 SHA256: 854111fc00b8a01946a6cb2bc4ea97765f5748c291daa209e5042320d9056314 Section: Tweaks Description: Unparalleled Keyboard Customisation Author: Spark Name: Laetus
+
+Package: com.spark.snowboard Version: 1.5.50 Architecture: iphoneos-arm64 Maintainer: Spark Installed-Size: 3268 Depends: mobilesubstrate, preferenceloader Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard Filename: debs/spark.滑雪板集成板_1.5.50-arm64.deb Size: 1255596 MD5sum: 069b3abe4e9317ea301568357dd59ea1 SHA1: 34ac02aebc8f633fdba518304b4b7c69dd535ed9 SHA256: 9ac5bb5d7c2fc0e98e749f257394859ab365f01fdad62fd0f956dccf7b012bf9 Section: Tweaks Description: Snowboard本体，所有扩展都将依赖此插件，单独使用可以更换桌面图标（抖动后双击）等其他功能，此源仅作备份与注释。 Author: Spark & Dennis D. Bednarz Icon: https://s1.imagehub.cc/images/2025/02/16/6184f5a172c0da2db10df7ddce6977bc.png Name: SnowBoard
+
+Package: com.susu.ccuiplayer Version: 1.0.7 Architecture: iphoneos-arm64 Maintainer: SuSu Installed-Size: 436 Depends: mobilesubstrate, preferenceloader Filename: debs/susu.控制中心播放器加背景图_1.0.7-arm64.deb Size: 48272 MD5sum: 60b52cc90bacab3e953c6fa91413048a SHA1: e145028c02765fd8f7b48cd3ee3924d1fc3235be SHA256: d21ebeccb3760deaec5846adf86183dd93497c8662ec67ec7a0a8cbdb8c599b5 Section: Tweaks Description: 控制中心音频窗口背景插件 Author: SuSu Name: CCUIPlayer
+
+Package: com.susu.ios16 Version: 2.2 Architecture: iphoneos-arm64 Maintainer: 苏苏 Installed-Size: 712 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist Filename: debs/ios16.原生90字体_2.2-arm64.deb Size: 83323848 MD5sum: 355ea785c3a35d1ee18875ebb637b9a1 SHA1: 1b01d64eacd6adef8fe50981290b4ad342439662 SHA256: d89dac679976d447f8c2468d421d662841eaf9bedd31fc84fb762e7bb0cab2a9 Section: Tweaks Description: 苏苏提取ios16原生字体，修改为90%大小，使用前请先挂载！ Author: 苏苏 Icon: https://www.susubaby.top/images/ziti.png Name: ios16原生字体 90%大小
+
+Package: com.susu.photos Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: 苏苏 Installed-Size: 168 Depends: mobilesubstrate, preferenceloader Filename: debs/susu.相册精简_1.0.0-arm64.deb Size: 3572 MD5sum: 15876d7e90c6c0442e3cb0da12b13a8c SHA1: 48340c8563e703b16df105e0299e800d0544d5a6 SHA256: 07c09914ecae84784017cba4b945caa4cd4be10332f18dfc89009fdb10b8cb9d Section: Tweaks Description: 删除原生相册无用的窗口 Author: 苏苏 Name: SuPhotos
+
+Package: com.susu.reachplayer Version: 4.0.3 Architecture: iphoneos-arm64 Maintainer: 苏苏 Installed-Size: 2088 Depends: mobilesubstrate Filename: debs/susu.音乐专辑ReachPlayer_4.0.3-arm64.deb Size: 1096182 MD5sum: 97c9cbfc9c1a4aaf2d0555572cfb22c1 SHA1: cc6a17db8830d5230c270f3fbff60515dbdfc42f SHA256: c3bc21886833a54663dffbb2f9628618dee3e91a819feb94910c9be3f33575db Section: Tweaks Description: ReachPlayer便捷访问音乐专辑 Author: 苏苏 Icon: https://www.susubaby.top/json/ReachPlayer/icon.png Name: ReachPlayer音乐专辑 Sileodepiction: https://www.susubaby.top/json/ReachPlayer/js.json
+
+Package: com.susu.snapper3.picta Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: SuSu Installed-Size: 180 Depends: mobilesubstrate, com.jontelang.snapper3 (>= 1.1.1) Filename: debs/susu.picta_1.0.0-arm64.deb Size: 10466 MD5sum: 6d5bf7b4ad07fd86bdda1224a71083b6 SHA1: 72fde27044141599038c7c3c13cc8025543ead67 SHA256: b455488c3f62b808538323ef6f96f6a1b1a01a2ce1eaf2b8da326174018e01da Section: Tweaks Description: Picta适配 Snapper3 的插件 Author: SuSu Name: Picta
+
+Package: com.susu.sumusicplayercc Version: 1.0.1 Architecture: iphoneos-arm64 Maintainer: 苏苏 Installed-Size: 628 Depends: com.opa334.ccsupport Filename: debs/susu.自定义控制中心音乐播放器_1.0.1-arm64.deb Size: 86872 MD5sum: ef5b0b3831cbb50e67bac26f73918ab2 SHA1: 9213fbd6cd23acf43ed2ca43010ca6b6b8df50d9 SHA256: 66d139044e2a5e2d075126c179b4446aecfe7cfa0c7b57544be8bbb70ae07049 Section: Tweaks Description: 自定义控制中心音乐播放器 Author: 苏苏 Icon: https://lt.sntp.uk/i/2026/01/25/6975ccd13b377.png Name: SuMusicPlayerCC
+
+Package: com.susu.sutheme Version: 1.0.1 Architecture: iphoneos-arm64 Maintainer: 苏苏 Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/susu.自定义图标_1.0.1-arm64.deb Size: 12562 MD5sum: 6a83cf68741edc46038b7acc8874d644 SHA1: c191e2b0dc8af7ffe59965fa103b64046f7f42d7 SHA256: 66761c05963f1a242a2117582d83aceb72ff66761f7179bcb5b140cde9595138 Section: Tweaks Description: 自定义应用图标 Author: 苏苏 Name: SuTheme
+
+Package: com.susu.sutheme Version: 1.0.2 Architecture: iphoneos-arm64 Maintainer: 苏苏 Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/susu.自定义图标_1.0.2-arm64.deb Size: 13886 MD5sum: c771981c092bf9eaf05f77261e665af3 SHA1: cf71a8616f747c4260314d9f9ce486cbee109555 SHA256: 6a0bf355fd4549175b72a4ff9fe0d177ad5321e0c799095fd998457d2b0d2d88 Section: Tweaks Description: 自定义应用图标 Author: 苏苏 Name: SuTheme
+
+Package: com.swing.ddmcnoads Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 168 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.叮咚买菜净化_1.0.0-arm64.deb Size: 5052 MD5sum: affc170066db969d2f4fa1dac97036d6 SHA1: 9002d3418c137cc9b33f37904d653a35ecffdb0b SHA256: cca525421e1a8cc8666620d5d4a00e96dfda381cbfce0881415ed27bc7bcd25a Section: Tweaks Description: 叮咚买菜v11.19.0跳过启动广告。 Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.ddmcnoads Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.ddmcnoads/icon.png Name: 叮咚买菜去启动广告 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.ddmcnoads.json
+
+Package: com.swing.dpnoads Version: 1.2.0 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.百度网盘净化_1.2.0-arm64.deb Size: 17530 MD5sum: db73251a8d0fc20aaef11544dd78bd03 SHA1: 928cb729e5e936ac4df245df50555ad6d748aacb SHA256: f28d1a5196109a913dfd8cb83bd0d2cd94fa73f6a455a95c1566a584da70c153 Section: Tweaks Description: 百度网盘去广告，优化文件传输页面使用系统App来打开文件! Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.dpnoads Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.dpnoads/icon.png Name: 百度网盘净化 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.dpnoads.json
+
+Package: com.swing.eleme Version: 1.0.5 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.饿了么净化_1.0.5-arm64.deb Size: 13326 MD5sum: d78ff8b883a8cff6e01dd16fe6abad6c SHA1: f074f4fddf4607f57e6e1696298af26f1ca624bc SHA256: dc96042b0e9c78d2135a7ae3af535296187862ac9bec8d4d30af50472bac5647 Section: Tweaks Description: 饿了么去广告，精简全能超市和购物车推荐。 Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.eleme Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.eleme/icon.png Name: 饿了么去广告 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.eleme.json
+
+Package: com.swing.fleamarket Version: 1.0.0-2+debug Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 180 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.咸鱼净化_1.0.0-2-arm64.deb Size: 15750 MD5sum: 513ef16b2bf349a07fd525ff8d772fd0 SHA1: a9b27272a8fd8aab876d8e248ec131eb19d30006 SHA256: 107cc6b27124cfd6656ead390a17602cd6340fee096b779be37e1e74bbffee11 Section: Tweaks Description: 取消闲鱼的启动广告和净化其他广告。 Author: SWING Name: 闲鱼净化
+
+Package: com.swing.github Version: 1.0.1 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 168 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.github_1.0.1-arm64.deb Size: 5946 MD5sum: 115faca1325099ff2e7e1368d3184eb7 SHA1: 039534403821c4cfd432560ef21a898670c4a0d5 SHA256: 2e70645dbf39bc9afe60a07820a17b0b376dbd58d2665ee612fcd32f677abd76 Section: Tweaks Description: 激活GitHub Pro，除了Copilot功能，其他功能都支持。 Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.github Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.github/icon.png Name: GitHub Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.github.json
+
+Package: com.swing.mihome Version: 1.0.0 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 172 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.米家净化_1.0.0-arm64.deb Size: 8018 MD5sum: 33b021197c64bfeb194febd2ed6731b6 SHA1: f441f1e69fb140abee901de5cfedad60dcdefeec SHA256: c18d65838cb48600fab67fac230bb60fe3d5c53b5183b6bdab240196d2006c6b Section: Tweaks Description: 米家去广告插件! Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.mihome Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.mihome/icon.png Name: 米家NoAds Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.mihome.json
+
+Package: com.swing.neteasemusic Version: 0.0.1 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 200 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.网易云净化_0.0.1-arm64.deb Size: 11388 MD5sum: f8d4325a4872e441e464348fbe447c9b SHA1: e0108fb9c06ed347cd0604f4cda05a37b755f9e0 SHA256: 9d33521cf75b84349047a4c24029c74da042c43b7fc9a4bbc39ad3bbfaca0ec5 Section: Tweaks Description: 净化网易云音乐的广告！ Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.neteasemusic Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.neteasemusic/icon.png Name: 网易云音乐 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.neteasemusic.json
+
+Package: com.swing.nicegram Version: 1.0.0-1 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 168 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.Nicegram Pro_1.0.0-1-arm64.deb Size: 7672 MD5sum: 43eb0c8f9759816c9af0d4abb75fed8e SHA1: 71139b50a7b896033ab796806b55871a38af1bb3 SHA256: edd5ca981279fb96df4450ecc5da07181e254e38cc9e5bf439d6afe4b72e301e Section: Tweaks Description: An awesome tweak for Nicegram! TG：https://t.me/abox1993 Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.nicegram Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.nicegram/icon.png Name: Nicegram Premium Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.nicegram.json
+
+Package: com.swing.puretieba Version: 1.0.7 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 204 Depends: mobilesubstrate Filename: debs/swing.百度贴吧净化_1.0.7-arm64.deb Size: 18102 MD5sum: 6b4867559dd6d2a21d97a67726d66bcc SHA1: 71c994959ee2ef7663eb51cb19f07caed2807d18 SHA256: 4f58597d401cc33fdc5b104f541c97c9d752959b59cb64a105c7355caccada87 Section: Tweaks Description: 百度贴吧去广告插件，更新适配 v12.61.3 Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.puretieba Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.puretieba/icon.png Name: 百度贴吧去广告 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.puretieba.json
+
+Package: com.swing.purexhs Version: 1.0.2 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.小红书净化_1.0.2-arm64.deb Size: 14040 MD5sum: 2fe5f46f6d3ebdb91f0a502a6641b5d6 SHA1: b842cbaf32d1e327e4d6c7d35892f2be5b43d27a SHA256: 2abcfe8e1df4c67126894165e04c2a88dd78cb3d1eb74e196fbe11be8a5fbf99 Section: Tweaks Description: 自用插件且仅限越狱，注入无效!! Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.purexhs Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.purexhs/icon.png Name: 小红书净化 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.purexhs.json
+
+Package: com.swing.purexmly Version: 1.0.2 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 236 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.喜马拉雅净化_1.0.2-arm64.deb Size: 24788 MD5sum: da25c92ce5c52594cd634a8bee3fbbe8 SHA1: 60df0de71b8bd0d427278c8364f79a85bd3c5b04 SHA256: ff736664fb90d85c23858602db3102d9920ed195f7778c65a5a0eb29a8877372 Section: Tweaks Description: 净化喜马拉雅，解锁部分VIP资源! Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.purexmly Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.purexmly/icon.png Name: 喜马拉雅 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.purexmly.json
+
+Package: com.swing.qqmail Version: 1.0.1 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 168 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.QQ邮箱净化_1.0.1-arm64.deb Size: 5166 MD5sum: d24edcaeb47dff6b93ab13bccedb1c43 SHA1: d84dc4a22525dbf2193945c04f52aee14fa315ef SHA256: 4456503898395fb8dff9cc89ea588925a1daac967e9012341d4a1cc452c927b8 Section: Tweaks Description: QQ邮箱去广告插件。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除! Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.qqmail Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.qqmail/icon.png Name: QQ邮箱去广告 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.qqmail.json
+
+Package: com.swing.qqmusic Version: 1.0.1 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.QQ音乐净化_1.0.1-arm64.deb Size: 18176 MD5sum: 5ea3dc14b608c971290b1fa3f18e3047 SHA1: a691467a27ae56026abb242116dd96678376fb4c SHA256: f03c3fc928cc3be3a43f59c64324bd25adc248801b3150064fb5164699159657 Section: Tweaks Description: QQ音乐精简广告! Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.qqmusic Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.qqmusic/icon.png Name: QQ音乐净化 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.qqmusic.json
+
+Package: com.swing.weibolite Version: 1.0.3 Architecture: iphoneos-arm64 Maintainer: SWING Installed-Size: 204 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/swing.微博轻享净化_1.0.3-arm64.deb Size: 13634 MD5sum: fee81a2c3e25ede766cd0e2b1543dc1e SHA1: fe07df0bd1769a1749ccbe11f07e2e896172d9ad SHA256: 3cc6c13da4329559aa73e089d0dea8fd76f752e08fa214cd70a18ba2272831bf Section: Tweaks Description: 微博轻享版去广告去广告插件 Author: SWING Depiction: https://repo.swing1993.cn/depictions/index.html?packageId=com.swing.weibolite Icon: https://repo.swing1993.cn/api/packageinfo/com.swing.weibolite/icon.png Name: 微博轻享版去广告 Sileodepiction: https://repo.swing1993.cn/depictions/native/com.swing.weibolite.json
+
+Package: com.thefool.ccaudioplay Version: 0.0.1-94+debug Architecture: iphoneos-arm64 Maintainer: thefool Installed-Size: 29540 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/thefool.播放器美化_0.0.1-94-arm64.deb Size: 25090780 MD5sum: 7e22abf9f62e77bf79371bf5f82c70ef SHA1: 8b63dd05af342c1cab579c3e279b17d07a1098eb SHA256: a61f01e9709a5875239b0c3f0902d685ee819896f8536e9ec414db106541a81e Section: Tweaks Description: 播放器美化 不支IOS15 Author: thefool Name: CCAudioPlay
+
+Package: com.tiaotiao.wcchannelsdownloader Version: 1.6 Architecture: iphoneos-arm64 Maintainer: TiaoTiao Installed-Size: 2404 Depends: mobilesubstrate, firmware (>= 14.0) Filename: debs/tiaotiao.微信视频号下载_1.6-arm64.deb Size: 893946 MD5sum: a39453f8200e963281c75deafdd05184 SHA1: 8b4678bb362fe073f5a0ba0f575200e630b393bc SHA256: 4804e12d29efd9e2bd541e73b932ec8fad61b11ec980b2ad88d19ed2ba6448ea Section: Tweaks Description: 微信视频号下载 Author: TiaoTiao Name: WCChannelsDownloader
+
+Package: com.tiaotiao.wechatemoticontoselfie Version: 1.2 Architecture: iphoneos-arm64 Maintainer: TiaoTiao Installed-Size: 104 Depends: mobilesubstrate, firmware (>= 13.0) Filename: debs/tiaotiao.微信表情转自拍_1.2-arm64.deb Size: 24134 MD5sum: de4cfff9561acbec2095f16699dad1f4 SHA1: 8a4a36c123043f02bb764387fcc98931f39e4824 SHA256: dbb89936ce1640788c20cbd1181f12eafe07dcf0bb5da1e800782362adc434f6 Section: Tweaks Description: WeChat Emoticon To SelfieEmoticon Author: TiaoTiao Name: WeChatEmoticonToSelfie
+
+Package: com.tiaotiao.wxkeyboarduihook Version: 1.8 Architecture: iphoneos-arm64 Maintainer: TiaoTiao Installed-Size: 416 Depends: mobilesubstrate, firmware (>= 14.0) Filename: debs/tiaotiao.微信键盘虚线_1.8-arm64.deb Size: 81104 MD5sum: 781da50e35122e97118343867055f887 SHA1: 6708b3eb109855c250d7fe30117b41c71bc3f9e4 SHA256: 836c9675da9f6828186f6370eedfd50f9d3c337a19d9e5d36e734999e2af93d9 Section: Tweaks Description: WXKeyboardUIHook Author: TiaoTiao Name: WXKeyboardUIHook
+
+Package: com.tiaotiao.wxkeyboarduihook Version: 1.9 Architecture: iphoneos-arm64 Maintainer: TiaoTiao Installed-Size: 416 Depends: mobilesubstrate, firmware (>= 14.0) Filename: debs/tiaotiao.微信键盘虚线_1.9-arm64.deb Size: 83910 MD5sum: a85171436dd66d8cbb21af8f2be60ebc SHA1: 600e1d592ec99e0c6bd152e18682750f68237e35 SHA256: 5008731c213f496c0ec16663302b98aa183aca7c92e5e96512cdab9ca9beeb66 Section: Tweaks Description: WXKeyboardUIHook Author: TiaoTiao Name: WXKeyboardUIHook
+
+Package: com.tiaotiao.wxkeyboarduihook Version: 2.0 Architecture: iphoneos-arm64 Maintainer: TiaoTiao Installed-Size: 480 Depends: mobilesubstrate, firmware (>= 14.0) Filename: debs/tiaotiao.微信键盘虚线_2.0-arm64.deb Size: 106694 MD5sum: 8a86becf2f19175d598fa85e6bbc99f5 SHA1: 25e581e355b85ebadac33a6ac1ad48c6e423e150 SHA256: 4aa518a56122fa3fad420256335ad714a44e97c4835c9ae69d022536e6e1959e Section: Tweaks Description: WXKeyboardUIHook Author: TiaoTiao Name: WXKeyboardUIHook
+
+Package: com.wkk.lynxtwo Version: 2.5.4 Architecture: iphoneos-arm64 Maintainer: MTAC Installed-Size: 2952 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common Filename: debs/mtac.系统增强_2.5.4-arm64.deb Size: 677340 MD5sum: 9c3330c4a1a9ca5c5ff7918ecdb42fef SHA1: 51e7487acbaec496a2a56d7e3813f9f1b5ff0357 SHA256: 1d649d8eaa28de0c06960fbe5dada05cfbab387d5e2de8a72c838b227c101352 Section: Tweaks Description: 一个系统增强的插件，已汉化。 Author: MTAC Icon: https://s1.imagehub.cc/images/2025/01/23/16cac85a9470fec0d2ed4cb0af1eac4f.png Name: Lynx 2
+
+Package: com.wkk.mjhook Version: 1.0-1 Architecture: iphoneos-arm64 Maintainer: wkk Installed-Size: 168 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/wkk.米家优化_1.0-1-arm64.deb Size: 10920 MD5sum: e003d3e491ab8066816a92619636315b SHA1: d632162faba7f8fc05370ccd51dfdc1d4cc5cdef SHA256: d9d90e9320620a43e520247beb6274261ad3b7e427339eefa956b435ae671053 Section: Tweaks Description: cool Author: wkk Name: 米家优化
+
+Package: com.wkk.mtwmhook Version: 1.1-7 Architecture: iphoneos-arm64 Maintainer: wkk Installed-Size: 400 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/wkk美团外卖NoAds_1.1-7-arm64.deb Size: 3544 MD5sum: 8a11617063926e7d8deb7ee050e0236f SHA1: cc1d3bfbd82d20986156edc180b6b03d5fd9de68 SHA256: 4b4d37704f4f23653e20db171df1ebff623ceed206ebba00cdcb78a3a02c0173 Section: Tweaks Description: 去开屏广告，版本：8.68.0 Author: wkk Icon: https://s1.imagehub.cc/images/2025/07/05/4c47ba0f7be3c4ed094d026ae1dac6ba.jpeg Name: 美团外卖NoAds
+
+Package: com.wkk.mtyhhook Version: 1.0-1 Architecture: iphoneos-arm64 Maintainer: wkk Installed-Size: 168 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/wkk.美团优化_1.0-1-arm64.deb Size: 13768 MD5sum: a8a1e01e73e0b7d492afe15971a38a19 SHA1: 111547d5cd624dc1b736c0db5e26df3a32106b7f SHA256: d279ac8013172d2f04f1f66342b5b5a26f88fd95b7d6843ecae796c751418c62 Section: Tweaks Description: cool Author: wkk Name: 美团优化
+
+Package: com.xx.baiduhook Version: 1.0.2 Architecture: iphoneos-arm64 Maintainer: x✨ Installed-Size: 356 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/xx.百度地图优化_1.0.2-arm64.deb Size: 124518 MD5sum: d0cb211557aeec5a9b9ee6934154aeda SHA1: 29d5d239c353e3658169fb214dd5b38a873800d7 SHA256: 8cf2629077db9a092a80181dbbc822c0807e773d082bf1d6b4af4606558099bd Section: Tweaks Description: 功能默认开启 | 移除一些无用的悬浮 广告 板块 移除底部tab | 如果需要某功能 可以长按设置界面1-2秒出菜单自行关闭 || 1.0.2更新内容：新版支持 Author: x✨ Name: 百度地图优化
+
+Package: com.xx.gaodehook Version: 1.0.4 Architecture: iphoneos-arm64 Maintainer: x✨ Installed-Size: 900 Depends: mobilesubstrate (>= 0.9.5000) Filename: debs/xx.高德地图优化_1.0.4-arm64.deb Size: 357780 MD5sum: c89a41bc384219f4cd73ce233a935b3d SHA1: 780ea948357fb172a62aca902cf6062ff577148d SHA256: 107eacc4a334967c62ed514afe2d7f258a268edbbbf7a81b52bab0ebac13a9b0 Section: Tweaks Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题 Author: x✨ Name: 高德地图优化
+
+Package: com.yechen.dynamicislandring Version: 1.1.0 Architecture: iphoneos-arm64 Maintainer: 夜辰 Installed-Size: 428 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0) Filename: debs/yechen.灵动岛进度环_1.1.0-arm64.deb Size: 46174 MD5sum: e35e592526bbfb92f415b2c14c0b96db SHA1: 2871756270477b8391af51c7747eecf3bbd6f4bb SHA256: f6af44afbc51cf7680da9598941470a3cd62677374be70b2248908a55217b004 Section: Tweaks Description: 灵动岛音乐进度环增强插件 Author: 夜辰 Name: 灵动岛进度环
+
+Package: com.yourepo.ok95.reachplayer Version: 5.0.0 Architecture: iphoneos-arm64 Maintainer: 苏苏 <kk99588077@gmail.com> Depends: mobilesubstrate Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb Size: 1259174 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01 SHA256: ca05dc04581ebe6c5ca9fb53653d5008e85fd132b36cb8b463284673ad4348db Section: Tweaks Description: ReachPlayer便捷访问音乐专辑 Author: 苏苏 <kk99588077@gmail.com> Name: ReachPlayer音乐专辑
+
+Package: com.yourepo.ok95.reachplayer Version: 5.0.0 Architecture: iphoneos-arm64 Maintainer: 苏苏 <kk99588077@gmail.com> Depends: mobilesubstrate Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb Size: 1259174 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01 SHA256: ca05dc04581ebe6c5ca9fb53653d5008e85fd132b36cb8b463284673ad4348db Section: Tweaks Description: ReachPlayer便捷访问音乐专辑 Author: 苏苏 <kk99588077@gmail.com> Name: ReachPlayer音乐专辑
+
+Package: flex3 Version: 1:3~Beta90 Architecture: iphoneos-arm64 Maintainer: John Coates Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 9.0) Recommends: com.rpetrich.rocketbootstrap Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly Filename: debs/Flex_3_Beta90-arm64.deb Size: 6329640 MD5sum: dc44a3afff8a78b393efcd883cdaec94 SHA1: 00953fc59c00d5270cede869ad0d7b4ad4f1d029 SHA256: 10202bc4026a4c3d54631f44855c40adf609a8f3c3c537e434ce346170decf14 Section: Tweaks Description: 开发您自己的调整并在Flex社区云上共享。Dopamine2.0可生效系统补丁，内置Legacy arm64e Support补丁，加入来了老弟的汉化，感谢他的付出。Xina2.0不要安装，不要安装！！！！ Author: John Coates Name: Flex 3 Beta90
+
+Package: xhs.x Version: 1.2.0 Architecture: iphoneos-arm64 Maintainer: 𝙓 Installed-Size: 2608 Depends: mobilesubstrate (>= 0.9.5000) Conflicts: com.xx.xhshook Replaces: com.xx.xhshook Filename: debs/xx.小红书净化_1.2.0-arm64.deb Size: 1786192 MD5sum: 44a6409250d05a930472b79a42577270 SHA1: 7e9c483eb4cd980a677526154a58e186a70ef292 SHA256: 29258cf9b2ddd7c9ffe741dee72ff566849af8495644c6d711d1bfc2d5a57944 Section: Tweaks Description: 自用 Author: 𝙓 Name: 小红薯
 
