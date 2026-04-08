@@ -22,11 +22,7 @@ jobs:
       - name: Generate Packages
         run: |
           dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
-          # 逻辑：先匹配rootless，再统一改为Tweaks，优先级绝对正确
-          sed -E \
-            -e '/rootless|RootHide/s/^Section:.*$/Section: RootHide/' \
-            -e 's/^Section:.*$/Section: Tweaks/' \
-            Packages.raw > Packages
+          sed -E 's/^Section:.*$/Section: Tweaks/' Packages.raw > Packages
           zstd -f Packages -o Packages.zst
           rm -f Packages.raw
 
@@ -35,5 +31,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add Packages Packages.zst
-          git commit -m "Auto-update: Tweaks + RootHide" || echo "No changes"
+          git commit -m "All to Tweaks" || echo "No changes"
           git push -f origin master
