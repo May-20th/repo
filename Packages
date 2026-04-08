@@ -907,7 +907,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 356
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/simon.控制中心天气_1.0.4-1-arm64.deb
+Filename: debs/simon.控制中心天气_1.0.4-arm64.deb
 Size: 92602
 MD5sum: 5f02e4b95febca197e076807f58364e3
 SHA1: d508a400b1dadf035d527fb7f982d265b93cb306
