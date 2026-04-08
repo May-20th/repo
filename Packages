@@ -885,6 +885,22 @@ Description: 删除主屏幕上小部件的背景。
 Author: Lessica <82flex@gmail.com>
 Name: 透明小组件
 
+Package: com.simon.ccglow
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: Simon
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: debs/simon.控制中心发光_2.0.3-arm64.deb
+Size: 24102
+MD5sum: ca0f3464b198d2d0daf7969d988b6633
+SHA1: 0fb875518d06f0117cae89fb7ea28be24265511c
+SHA256: cf903c342bd4978d15cf7c22dc9f58d8fbda162c0f065abe05dd2bb6b67ae4fa
+Section: Tweaks
+Description: 控制中心发光
+Author: Simon
+Name: 控制中心发光
+
 Package: com.simon.controlcenterlayout
 Version: 2.1
 Architecture: iphoneos-arm64
@@ -918,6 +934,60 @@ Author: ylr
 Icon: https://sini921.github.io/repo/sileodepiction/icon/zfbhook.png
 Name: 支付宝步数(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/zfbhook/js.json
+
+Package: com.sini921.ccloader
+Version: 0.0.1-5
+Architecture: iphoneos-arm64
+Maintainer: 橙子
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/sini.ccloader_0.0.1-5-arm64.deb
+Size: 144600
+MD5sum: 99358fe9b1185673e0790b84a017483b
+SHA1: e467e612f41fd11c1b4120f91d056c130baf4410
+SHA256: 9e09b1ad585ca16f7d9af6dc78a99e0e8bcc1a2f996437ec10de8fef9d3160b4
+Section: Tweaks
+Description: 控制中心CAPackage加载器
+Author: 橙子
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
+Name: CCLoader(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
+
+Package: com.sini921.ccloader
+Version: 0.0.1-6
+Architecture: iphoneos-arm64
+Maintainer: 橙子
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/sini.ccloader_0.0.1-6-arm64.deb
+Size: 144508
+MD5sum: c6c813778d264e774eca7a04cf97969e
+SHA1: b04e0c5b14fa04b29985de01918e54f895c659a3
+SHA256: 2cb239144d2ccffc36da96aaa3ee1e8eff863ee9b0ff1f9a631e6d7fe207ad31
+Section: Tweaks
+Description: 控制中心CAPackage加载器
+Author: 橙子
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
+Name: CCLoader(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
+
+Package: com.sini921.ccloader
+Version: 0.0.1-7
+Architecture: iphoneos-arm64
+Maintainer: 橙子
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/sini.ccloader_0.0.1-7-arm64.deb
+Size: 145168
+MD5sum: d62021e954fc9bc1c93bf493964438af
+SHA1: 19cfdc724f942023d672889f6e8ee6cc98393177
+SHA256: 7e72435b53e5e5d18c958d3c139a5bc510afd0bd85d2c37af493f4a0823c4973
+Section: Tweaks
+Description: 控制中心CAPackage加载器
+Author: 橙子
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccloader.png
+Name: CCLoader(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccloader/js.json
 
 Package: com.sini921.photohub
 Version: 0.0.1-5
@@ -1601,7 +1671,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -1616,7 +1686,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
