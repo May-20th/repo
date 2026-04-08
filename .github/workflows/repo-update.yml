@@ -22,7 +22,7 @@ jobs:
       - name: Generate Packages
         run: |
           dpkg-scanpackages --multiversion debs /dev/null > Packages.raw
-          # 逻辑：先把所有rootless归到RootHide，剩下的全部归到Tweaks
+          # 逻辑：先匹配rootless，再统一改为Tweaks，优先级绝对正确
           sed -E \
             -e '/rootless|RootHide/s/^Section:.*$/Section: RootHide/' \
             -e 's/^Section:.*$/Section: Tweaks/' \
