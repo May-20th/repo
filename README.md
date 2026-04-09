@@ -1,3 +1,5 @@
 # XY's Repo 🥳🥳🥳
+
+🍭 不要为了越狱而放弃升级的乐趣
     
-欢迎使用 **XY's Repo**！这是一个基于 GitHub Pages 搭建的iOS 越狱插件源 · 纯净稳定
+欢迎使用 **XY's Repo**！iOS 越狱插件源 · 纯净稳定
