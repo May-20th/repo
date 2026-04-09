@@ -1,72 +1,155 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>XY's Repo</title>
+    <link rel="icon" type="image/png" href="CydiaIcon.png">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background: #f2f2f7;
             margin: 0;
             padding: 20px;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            position: relative;
+            background: #0a0f1e;
         }
-        .container {
-            max-width: 400px;
+
+        #starCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
-            background: white;
-            border-radius: 32px;
-            padding: 40px 24px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            height: 100%;
+            z-index: 0;
+            display: block;
         }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 460px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(16px);
+            border-radius: 48px;
+            padding: 48px 32px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 30px 50px rgba(0,0,0,0.4);
+        }
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 16px;
+            background-image: url('CydiaIcon.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 20px;
+            filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+        }
+
         .slogan {
-            color: #ff6b6b;
+            color: #ffd966;
             font-size: 15px;
-            font-weight: 500;
+            font-weight: 600;
             margin-bottom: 12px;
             letter-spacing: 0.5px;
+            background: rgba(0,0,0,0.4);
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 40px;
+            backdrop-filter: blur(4px);
         }
+
         h1 {
-            font-size: 32px;
-            font-weight: 700;
-            color: #007aff;
+            font-size: 38px;
+            font-weight: 800;
+            color: white;
             margin-bottom: 8px;
+            letter-spacing: -0.5px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
         }
+
         .sub {
-            color: #6c6c70;
-            margin-bottom: 32px;
-            font-size: 14px;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 40px;
+            font-size: 15px;
+            font-weight: 500;
         }
+
         .btn {
             display: block;
-            padding: 14px;
+            padding: 16px 20px;
             margin: 16px 0;
             background: #007aff;
             color: white;
             font-size: 18px;
             font-weight: 600;
-            border-radius: 30px;
+            border-radius: 60px;
             text-decoration: none;
-            transition: background 0.2s;
+            transition: all 0.2s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            box-shadow: 0 4px 12px rgba(0,122,255,0.3);
+            -webkit-tap-highlight-color: transparent;
+            border: none;
+            cursor: pointer;
+            text-align: center;
         }
+
         .btn-zebra {
             background: #ff6b6b;
+            box-shadow: 0 4px 12px rgba(255,107,107,0.3);
         }
-        .btn:hover {
+
+        .btn:active {
+            transform: scale(0.97);
             opacity: 0.9;
+        }
+
+        .footer {
+            margin-top: 32px;
+            font-size: 12px;
+            color: rgba(255,255,255,0.6);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 32px 24px;
+            }
+            h1 {
+                font-size: 32px;
+            }
+            .btn {
+                padding: 14px 16px;
+                font-size: 16px;
+            }
         }
     </style>
 </head>
 <body>
+    <canvas id="starCanvas"></canvas>
     <div class="container">
+        <div class="icon"></div>
         <div class="slogan">🍭 不要为了越狱而放弃升级的乐趣</div>
         <h1>XY's Repo</h1>
-        <div class="sub">iOS 越狱插件源</div>
+        <div class="sub">iOS 越狱插件源 · 纯净稳定</div>
         
         <a class="btn" href="sileo://source/https://may-20th.github.io/repo/">
             添加到 Sileo
@@ -74,6 +157,70 @@
         <a class="btn btn-zebra" href="zebra://sources/add?url=https://may-20th.github.io/repo/">
             添加到 Zebra
         </a>
+        
+        <div class="footer">
+            — 点击按钮自动唤起包管理器 —
+        </div>
     </div>
+
+    <script>
+        (function() {
+            const canvas = document.getElementById('starCanvas');
+            const ctx = canvas.getContext('2d');
+            let stars = [];
+            let width, height;
+
+            function initStars(count = 200) {
+                stars = [];
+                for (let i = 0; i < count; i++) {
+                    stars.push({
+                        x: Math.random(),
+                        y: Math.random(),
+                        radius: Math.random() * 2.5,
+                        alpha: Math.random(),
+                        speed: 0.0005 + Math.random() * 0.001, // 速度调慢
+                        twinkle: Math.random() * Math.PI * 2
+                    });
+                }
+            }
+
+            function resizeCanvas() {
+                width = window.innerWidth;
+                height = window.innerHeight;
+                canvas.width = width;
+                canvas.height = height;
+                drawStars();
+            }
+
+            function drawStars() {
+                if (!ctx) return;
+                ctx.clearRect(0, 0, width, height);
+                const grad = ctx.createLinearGradient(0, 0, 0, height);
+                grad.addColorStop(0, '#0b1020');
+                grad.addColorStop(1, '#1a1f30');
+                ctx.fillStyle = grad;
+                ctx.fillRect(0, 0, width, height);
+
+                for (let star of stars) {
+                    const twinkleAlpha = 0.5 + 0.5 * Math.sin(star.twinkle);
+                    const alpha = Math.min(0.8, star.alpha * twinkleAlpha);
+                    ctx.beginPath();
+                    ctx.arc(star.x * width, star.y * height, star.radius, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(255, 240, 200, ${alpha})`;
+                    ctx.fill();
+                    star.x += star.speed;
+                    if (star.x > 1) star.x = 0;
+                    star.twinkle += 0.02;
+                }
+                requestAnimationFrame(drawStars);
+            }
+
+            window.addEventListener('resize', () => {
+                resizeCanvas();
+            });
+            initStars(250);
+            resizeCanvas();
+        })();
+    </script>
 </body>
 </html>
