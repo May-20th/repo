@@ -1097,6 +1097,24 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/reachplayer.png
 Name: ReachPlayer(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/reachplayer/js.json
 
+Package: com.sini921.switchpro
+Version: 0.0.1-9
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 528
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: debs/sini.开关简单美化_0.0.1-9-arm64.deb
+Size: 87378
+MD5sum: a81348472e8695dcae03665604dc76fe
+SHA1: 3a4f95fb53d0408fc41837e33de1b41cd44632a2
+SHA256: 06d9e07215b8580d033c463d67c6880fe283951c00befbc6b178cd82c8a15f46
+Section: Tweaks
+Description: 开关简单美化, 旨在为需要SnowBoard的开关美化功能但不需要SnowBoard的其他功能的情况下使用
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/switchpro.png
+Name: SwitchPro(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/switchpro/js.json
+
 Package: com.spark.laetus
 Version: 3.5.1-rootless
 Architecture: iphoneos-arm64
@@ -1743,7 +1761,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -1758,7 +1776,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
