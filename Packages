@@ -347,6 +347,28 @@ Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
 Name: ios16灵动岛
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
+Package: com.axs.notifyisland
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 444
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/axs.灵动通知_1.1.1-arm64.deb
+Size: 53540
+MD5sum: d8bbe0be7653f9b0c0ba6d9dfdc9c5c8
+SHA1: e18e166ecad5126f8f6ba073cc2300433c2c3a1c
+SHA256: fbf778849b8cdcff3698d4f81d1c14fe8d144a15cea237e8c6e870aeb61a2365
+Section: Tweaks
+Description: 灵动通知，功能介绍:
+  * 1.在灵动岛上显示精美的消息通知；
+  * 2.支持自定义背景（视频、图片、纯代码格式）；
+  * 3.支持自定义尺寸、字体及垂直偏移；
+  * 4.支持点击岛上消息跳转app。
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/notifyisland.png
+Name: NotifyIsland
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/notifyisland/js.json
+
 Package: com.axs.screenshellpro
 Version: 5.2.0-61
 Architecture: iphoneos-arm64
@@ -1777,7 +1799,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
+Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
@@ -1792,7 +1814,7 @@ Version: 5.0.0
 Architecture: iphoneos-arm64
 Maintainer: 苏苏 <kk99588077@gmail.com>
 Depends: mobilesubstrate
-Filename: debs/susu.音乐专辑ReachPlayer_5.0.0-arm64.deb
+Filename: debs/com.yourepo.ok95.reachplayer_5.0.0_iphoneos-arm64.deb
 Size: 1259174
 MD5sum: 661d6e6bcb6511b4c3bfaf75efee2581
 SHA1: 6e7fd90867ade2c51df26b84e310cdb51bddee01
