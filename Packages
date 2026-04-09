@@ -779,6 +779,22 @@ Icon: https://tweak.abox.plus/api/packageinfo/com.link.aweme/icon.png
 Name: 抖音增强
 Sileodepiction: https://tweak.abox.plus/depictions/native/com.link.aweme.json
 
+Package: com.liuf.lddbg
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: liuf <1602389262>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/liuf.灵动岛背景_0.0.2-arm64.deb
+Size: 4786
+MD5sum: 651f215237a4d638074e1deba1db65bc
+SHA1: 992c24e27c5e47ee089b68b8fe7d2d337e0e83b0
+SHA256: 15d98f3321dc5e25bab0d613004ad51a26ab11b881d0bfb25ceba8aaca471daa
+Section: Tweaks
+Description: 给灵动岛添加炫彩背景效果 i!
+Author: liuf <1602389262>
+Name: 灵动岛背景
+
 Package: com.liuf.lddfg
 Version: 1.0.0
 Architecture: iphoneos-arm64
