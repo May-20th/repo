@@ -1,51 +1,313 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XY's Repo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>XY's Repo · 越狱插件源</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            max-width: 600px;
-            margin: 100px auto;
-            padding: 0 20px;
-            text-align: center;
-            background: #f2f2f7;
+            background: #f8f8fc;
+            color: #1c1c1e;
+            padding: 20px;
         }
-        h1 {
-            font-size: 32px;
-            color: #007aff;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
         }
-        p {
-            font-size: 17px;
+        /* 头部 */
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 32px;
+            padding: 32px 24px;
+            margin-bottom: 28px;
+            color: white;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .header p {
+            opacity: 0.9;
+            margin-top: 8px;
+            font-size: 1rem;
+        }
+        .stats {
+            margin-top: 16px;
+            background: rgba(255,255,255,0.2);
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        /* 分类筛选 */
+        .filters {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 28px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            background: white;
+            border: 1px solid #e2e2e8;
+            padding: 10px 24px;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
             color: #333;
         }
-        .btn {
-            display: inline-block;
-            padding: 14px 28px;
-            margin: 10px;
-            background: #007aff;
+        .filter-btn.active {
+            background: #667eea;
+            border-color: #667eea;
             color: white;
-            font-size: 18px;
-            border-radius: 12px;
-            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(102,126,234,0.3);
+        }
+        /* 插件网格 */
+        .packages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 24px;
+        }
+        .package-card {
+            background: white;
+            border-radius: 24px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.03);
+        }
+        .package-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 30px -12px rgba(0,0,0,0.15);
+        }
+        .package-name {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #1a1a2e;
+        }
+        .package-id {
+            font-family: monospace;
+            font-size: 0.7rem;
+            color: #8e8e93;
+            word-break: break-all;
+            margin-bottom: 12px;
+        }
+        .package-desc {
+            font-size: 0.85rem;
+            color: #555;
+            line-height: 1.45;
+            margin: 12px 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .package-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0;
+            font-size: 0.7rem;
+        }
+        .package-meta span {
+            background: #f2f2f6;
+            padding: 4px 12px;
+            border-radius: 30px;
+            color: #444;
+        }
+        .section-badge {
+            background: #e9ecef;
             font-weight: 600;
         }
-        .btn-zebra {
-            background: #ff6b6b;
+        .section-badge.RootHide {
+            background: #ff6b6b20;
+            color: #d63384;
+        }
+        .install-btn {
+            display: block;
+            background: #667eea;
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-decoration: none;
+            margin-top: 16px;
+            transition: background 0.2s;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+        .install-btn:hover {
+            background: #5a67d8;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #8e8e93;
+            font-size: 0.8rem;
+            border-top: 1px solid #e2e2e8;
+        }
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #888;
+            font-size: 1rem;
+        }
+        @media (max-width: 700px) {
+            body { padding: 12px; }
+            .packages-grid { grid-template-columns: 1fr; }
+            .header h1 { font-size: 1.6rem; }
         }
     </style>
 </head>
 <body>
-    <h1>XY's Repo</h1>
-    <p>iOS 越狱软件源 • 一键添加到包管理器</p>
+<div class="container">
+    <div class="header">
+        <h1>🍭 XY's Repo</h1>
+        <p>个人越狱插件源 · 稳定更新</p>
+        <div class="stats" id="stats">加载中...</div>
+    </div>
 
-    <a class="btn" href="sileo://source/https://may-20th.github.io/repo/">
-        添加到 Sileo
-    </a>
-    <a class="btn btn-zebra" href="zebra://source/https://may-20th.github.io/repo/">
-        添加到 Zebra
-    </a>
+    <div class="filters" id="filters">
+        <button class="filter-btn active" data-section="all">📦 全部</button>
+        <button class="filter-btn" data-section="Tweaks">🎯 插件</button>
+        <button class="filter-btn" data-section="RootHide">🔒 隐根</button>
+    </div>
+
+    <div id="packages-list" class="packages-grid">
+        <div class="loading">✨ 正在获取插件列表...</div>
+    </div>
+    <div class="footer">
+        <p>点击「安装」按钮自动唤起 Sileo 或 Zebra | 源地址：<code>https://may-20th.github.io/repo/</code></p>
+    </div>
+</div>
+
+<script>
+    (async function() {
+        try {
+            // 获取 Packages 文件
+            const res = await fetch('Packages');
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            const raw = await res.text();
+            
+            // 解析 Packages 文本
+            const packages = [];
+            const blocks = raw.split(/\n\s*\n/);
+            for (const block of blocks) {
+                if (!block.trim()) continue;
+                const pkg = {};
+                const lines = block.split('\n');
+                for (const line of lines) {
+                    const idx = line.indexOf(':');
+                    if (idx === -1) continue;
+                    const key = line.slice(0, idx).trim();
+                    let val = line.slice(idx+1).trim();
+                    // 多行描述合并（简单处理：如果下一行以空格开头，则拼接）
+                    pkg[key] = val;
+                }
+                if (pkg.Package) {
+                    // 标准化分类
+                    let section = pkg.Section || 'Tweaks';
+                    if (section.toLowerCase().includes('roothide')) section = 'RootHide';
+                    else section = 'Tweaks';
+                    pkg.Section = section;
+                    packages.push(pkg);
+                }
+            }
+            
+            // 渲染
+            const container = document.getElementById('packages-list');
+            const statsSpan = document.getElementById('stats');
+            
+            function render(filter = 'all') {
+                const filtered = filter === 'all' ? packages : packages.filter(p => p.Section === filter);
+                if (filtered.length === 0) {
+                    container.innerHTML = '<div class="loading">📭 暂无插件</div>';
+                    statsSpan.innerText = `共 0 个插件`;
+                    return;
+                }
+                const html = filtered.map(p => {
+                    const name = escapeHtml(p.Name || p.Package);
+                    const pkgId = p.Package;
+                    const desc = escapeHtml(p.Description || '暂无描述');
+                    const version = p.Version || '?';
+                    const author = p.Author || (p.Maintainer ? p.Maintainer.split('<')[0].trim() : '未知');
+                    const sectionClass = p.Section === 'RootHide' ? 'RootHide' : '';
+                    const sectionText = p.Section === 'RootHide' ? '🔒 隐根' : '🎯 插件';
+                    return `
+                        <div class="package-card">
+                            <div class="package-name">${name}</div>
+                            <div class="package-id">${pkgId}</div>
+                            <div class="package-desc">${desc}</div>
+                            <div class="package-meta">
+                                <span>📌 ${version}</span>
+                                <span>👤 ${author}</span>
+                                <span class="section-badge ${sectionClass}">${sectionText}</span>
+                            </div>
+                            <button class="install-btn" data-package="${pkgId}">📲 安装到 Sileo</button>
+                        </div>
+                    `;
+                }).join('');
+                container.innerHTML = html;
+                statsSpan.innerText = `共 ${filtered.length} / ${packages.length} 个插件`;
+                
+                // 绑定安装按钮
+                document.querySelectorAll('.install-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        const pkg = btn.getAttribute('data-package');
+                        // 尝试唤起 Sileo
+                        window.location.href = `sileo://package/${pkg}`;
+                        // 后备 Zebra
+                        setTimeout(() => {
+                            window.location.href = `zebra://package/${pkg}`;
+                        }, 200);
+                    });
+                });
+            }
+            
+            render('all');
+            
+            // 分类切换事件
+            const btns = document.querySelectorAll('.filter-btn');
+            btns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    btns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const section = btn.getAttribute('data-section');
+                    render(section);
+                });
+            });
+            
+        } catch (err) {
+            console.error(err);
+            document.getElementById('packages-list').innerHTML = `<div class="loading">❌ 加载失败: ${err.message}<br>请确保源地址正确且 Packages 文件存在</div>`;
+            document.getElementById('stats').innerText = `加载出错`;
+        }
+        
+        function escapeHtml(str) {
+            if (!str) return '';
+            return str.replace(/[&<>]/g, function(m) {
+                if (m === '&') return '&amp;';
+                if (m === '<') return '&lt;';
+                if (m === '>') return '&gt;';
+                return m;
+            });
+        }
+    })();
+</script>
 </body>
 </html>
